@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+	package="com.JoomlaDay" android:versionName="1.0.0" android:versionCode="1">
+    <uses-sdk android:minSdkVersion="4"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.GDCatalog" android:name=".Launcher">
+        <activity android:name="Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+       <activity android:name="AboutActivity"></activity>
+       <activity android:name="NewsList"></activity>
+       <activity android:name="Preferences"></activity>
+       <activity android:name="WebActivity"></activity>
+       <activity android:name="HashtagList"></activity>
+       <activity android:name="OficialList"></activity>
+       <activity android:name="NewsItemView"></activity>
+       <activity android:name="ProgramacaoList"></activity>
+       <activity android:name="ProgramacaoItemView"></activity>
+    </application>
+</manifest>

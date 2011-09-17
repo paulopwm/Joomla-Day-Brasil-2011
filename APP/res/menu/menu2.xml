@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/item03" android:icon="@drawable/config" android:title="@string/title_preferences"></item>
+<item android:title="@string/exit_text" android:id="@+id/item02" android:icon="@drawable/shut_down"></item>
+<item android:title="@string/share_text" android:id="@+id/item04" android:icon="@drawable/share"></item>
+</menu>

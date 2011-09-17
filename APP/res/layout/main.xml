@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<greendroid.widget.ActionBarHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@id/gd_action_bar_host"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<greendroid.widget.ActionBar
+		android:id="@id/gd_action_bar"
+		android:layout_height="@dimen/gd_action_bar_height"
+		android:layout_width="fill_parent"
+		android:background="?attr/gdActionBarBackground" />
+
+	<FrameLayout
+		android:id="@id/gd_action_bar_content_view"
+		android:background="@android:color/white"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:layout_weight="1">
+		<GridView
+		    android:id="@+id/gridView"
+		    android:layout_width="fill_parent" 
+		    android:numColumns="auto_fit"
+		    android:verticalSpacing="20dp"
+		    android:horizontalSpacing="10dp"
+		    android:stretchMode="columnWidth"
+		    android:gravity="center" 
+		    android:layout_weight="1" 
+		    android:layout_marginBottom="10dip" 
+		    android:layout_gravity="top"
+		    android:layout_height="fill_parent"/>
+	</FrameLayout>	
+</greendroid.widget.ActionBarHost>

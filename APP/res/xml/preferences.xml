@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/title_preferences">
+		<ListPreference android:entryValues="@array/qtdnoticias" android:entries="@array/qtdnoticiasstr" android:negativeButtonText="@string/cancel_text" android:dialogIcon="@drawable/config" android:title="@string/news_wifi" android:dialogTitle="@string/news_wifi" android:summary="@string/news_wifi_desc" android:key="qtd_news_wifi" android:defaultValue="10"></ListPreference>
+		<ListPreference android:entryValues="@array/qtdnoticias" android:entries="@array/qtdnoticiasstr" android:negativeButtonText="@string/cancel_text" android:dialogIcon="@drawable/config" android:title="@string/news" android:dialogTitle="@string/news" android:key="qtd_news" android:summary="@string/news_desc" android:defaultValue="10"></ListPreference>		
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/cache">
+		<Preference android:title="@string/clean_cache" android:key="clean_cache"></Preference>
+	</PreferenceCategory>
+</PreferenceScreen>

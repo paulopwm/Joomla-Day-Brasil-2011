@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<greendroid.widget.ActionBarHost
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@id/gd_action_bar_host"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<greendroid.widget.ActionBar
+		android:id="@id/gd_action_bar"
+		android:layout_height="@dimen/gd_action_bar_height"
+		android:layout_width="fill_parent"
+		android:background="?attr/gdActionBarBackground" />
+
+	<FrameLayout
+		android:id="@id/gd_action_bar_content_view"
+		android:layout_height="0dp"
+		android:layout_width="fill_parent"
+		android:layout_weight="1"
+		android:background="#FFFFFF">
+		<LinearLayout
+		  	xmlns:android="http://schemas.android.com/apk/res/android"
+		  	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="fill_parent" 
+		  	android:orientation="vertical" 
+		  	android:id="@+id/layout_main">
+		<WebView
+		    android:id="@+id/WebView"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_weight="1"
+		/>
+		</LinearLayout>
+	</FrameLayout>
+</greendroid.widget.ActionBarHost>

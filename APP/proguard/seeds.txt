@@ -1,0 +1,96 @@
+greendroid.widget.itemview.ThumbnailItemView
+greendroid.widget.itemview.ThumbnailItemView: ThumbnailItemView(android.content.Context,android.util.AttributeSet)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.AsyncImageView
+greendroid.widget.AsyncImageView: AsyncImageView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.TextItemView
+greendroid.widget.itemview.TextItemView: TextItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.ProgressItemView
+greendroid.widget.itemview.ProgressItemView: ProgressItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.LongTextItemView
+greendroid.widget.itemview.LongTextItemView: LongTextItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.PageIndicator
+greendroid.widget.PageIndicator: PageIndicator(android.content.Context,android.util.AttributeSet)
+greendroid.widget.PagedView
+greendroid.widget.PagedView: PagedView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.SeparatorItemView
+greendroid.widget.itemview.SeparatorItemView: SeparatorItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.SegmentedHost
+greendroid.widget.SegmentedHost: SegmentedHost(android.content.Context,android.util.AttributeSet)
+greendroid.widget.ActionBar
+greendroid.widget.ActionBar: ActionBar(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.DrawableItemView
+greendroid.widget.itemview.DrawableItemView: DrawableItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.ActionBarHost
+greendroid.widget.ActionBarHost: ActionBarHost(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.DescriptionItemView
+greendroid.widget.itemview.DescriptionItemView: DescriptionItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.SegmentedBar
+greendroid.widget.SegmentedBar: SegmentedBar(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.SubtitleItemView
+greendroid.widget.itemview.SubtitleItemView: SubtitleItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.SubtextItemView
+greendroid.widget.itemview.SubtextItemView: SubtextItemView(android.content.Context,android.util.AttributeSet)
+greendroid.widget.itemview.ThumbnailItemView
+greendroid.widget.itemview.ThumbnailItemView: ThumbnailItemView(android.content.Context,android.util.AttributeSet,int)
+com.google.ads.AdView
+com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.AsyncImageView
+greendroid.widget.AsyncImageView: AsyncImageView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.itemview.TextItemView
+greendroid.widget.itemview.TextItemView: TextItemView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.itemview.ProgressItemView
+greendroid.widget.itemview.ProgressItemView: ProgressItemView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.itemview.LongTextItemView
+greendroid.widget.itemview.LongTextItemView: LongTextItemView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.PageIndicator
+greendroid.widget.PageIndicator: PageIndicator(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.PagedView
+greendroid.widget.PagedView: PagedView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.itemview.SeparatorItemView
+greendroid.widget.itemview.SeparatorItemView: SeparatorItemView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.SegmentedHost
+greendroid.widget.SegmentedHost: SegmentedHost(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.ActionBar
+greendroid.widget.ActionBar: ActionBar(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.itemview.DescriptionItemView
+greendroid.widget.itemview.DescriptionItemView: DescriptionItemView(android.content.Context,android.util.AttributeSet,int)
+greendroid.widget.SegmentedBar
+greendroid.widget.SegmentedBar: SegmentedBar(android.content.Context,android.util.AttributeSet,int)
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
+com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
+greendroid.widget.ActionBarItem$Type: greendroid.widget.ActionBarItem$Type[] values()
+greendroid.widget.ActionBarItem$Type: greendroid.widget.ActionBarItem$Type valueOf(java.lang.String)
+greendroid.widget.ActionBar$Type: greendroid.widget.ActionBar$Type[] values()
+greendroid.widget.ActionBar$Type: greendroid.widget.ActionBar$Type valueOf(java.lang.String)
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a[] values()
+com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a valueOf(java.lang.String)
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
+com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
+com.google.ads.AdActivity
+greendroid.app.GDActivity
+com.JoomlaDay.AboutActivity
+com.JoomlaDay.WebActivity
+greendroid.app.GDListActivity
+com.JoomlaDay.HashtagList
+com.JoomlaDay.ProgramacaoList
+com.JoomlaDay.OficialList
+com.JoomlaDay.NewsList
+com.JoomlaDay.Main
+greendroid.app.GDExpandableListActivity
+com.JoomlaDay.ProgramacaoItemView
+com.JoomlaDay.NewsItemView
+greendroid.app.GDTabActivity
+com.JoomlaDay.Preferences
+greendroid.app.GDApplication
+com.JoomlaDay.Launcher
+com.google.android.apps.analytics.AnalyticsReceiver
+com.google.ads.util.AdUtil$UserActivityReceiver
+com.google.ads.InstallReceiver
+greendroid.widget.PageIndicator$SavedState
+greendroid.widget.PageIndicator$SavedState: android.os.Parcelable$Creator CREATOR
+greendroid.widget.AsyncImageView$SavedState
+greendroid.widget.AsyncImageView$SavedState: android.os.Parcelable$Creator CREATOR
+greendroid.widget.PagedView$SavedState
+greendroid.widget.PagedView$SavedState: android.os.Parcelable$Creator CREATOR

@@ -1,0 +1,419 @@
+c:
+    final void a()
+com.JoomlaDay.Dialogs
+com.JoomlaDay.DrawableManager
+com.JoomlaDay.DrawableManager$1
+com.JoomlaDay.DrawableManager$2
+com.JoomlaDay.HashtagList:
+    216:219:public void navegador(java.lang.String)
+com.JoomlaDay.ImageLoader:
+    125:126:public void stopThread()
+    197:199:public void clearCache()
+com.JoomlaDay.MemoryCache:
+    23:24:public void clear()
+com.JoomlaDay.MenuItensAdapter:
+    public static final int ACTIVITY_CREATE
+com.JoomlaDay.NewsList:
+    239:242:public void navegador(java.lang.String)
+    280:311:public void showCustomDialog(java.util.Map)
+com.JoomlaDay.NewsList$7
+com.JoomlaDay.NewsList$8
+com.JoomlaDay.OficialList:
+    216:219:public void navegador(java.lang.String)
+com.JoomlaDay.ProgramacaoAdapter:
+    public com.JoomlaDay.ImageLoader imageLoader
+com.JoomlaDay.ProgramacaoItemView:
+    61:64:public void navegador(java.lang.String)
+com.JoomlaDay.ProgramacaoList:
+    216:219:public void navegador(java.lang.String)
+com.JoomlaDay.R
+com.JoomlaDay.R$anim
+com.JoomlaDay.R$array
+com.JoomlaDay.R$attr
+com.JoomlaDay.R$color
+com.JoomlaDay.R$dimen
+com.JoomlaDay.R$drawable
+com.JoomlaDay.R$id
+com.JoomlaDay.R$layout
+com.JoomlaDay.R$menu
+com.JoomlaDay.R$string
+com.JoomlaDay.R$style
+com.JoomlaDay.R$styleable
+com.JoomlaDay.R$xml
+com.cyrilmottier.android.greendroid.R$anim
+com.cyrilmottier.android.greendroid.R$array
+com.cyrilmottier.android.greendroid.R$attr
+com.cyrilmottier.android.greendroid.R$color
+com.cyrilmottier.android.greendroid.R$dimen
+com.cyrilmottier.android.greendroid.R$drawable
+com.cyrilmottier.android.greendroid.R$id
+com.cyrilmottier.android.greendroid.R$layout
+com.cyrilmottier.android.greendroid.R$menu
+com.cyrilmottier.android.greendroid.R$string
+com.cyrilmottier.android.greendroid.R$style
+com.cyrilmottier.android.greendroid.R$styleable:
+    public static final int ActionBar_dividerDrawable
+    public static final int ActionBar_dividerWidth
+    public static final int ActionBar_homeDrawable
+    public static final int ActionBar_title
+    public static final int ActionBar_type
+    public static final int AsyncImageView_defaultSrc
+    public static final int AsyncImageView_inDensity
+    public static final int AsyncImageView_url
+    public static final int DrawableItem_drawable
+    public static final int Item_enabled
+    public static final int PageIndicator_activeDot
+    public static final int PageIndicator_dotCount
+    public static final int PageIndicator_dotDrawable
+    public static final int PageIndicator_dotSpacing
+    public static final int PageIndicator_dotType
+    public static final int PageIndicator_gravity
+    public static final int ProgressItem_isInProgress
+    public static final int SegmentedBar_dividerDrawable
+    public static final int SegmentedBar_dividerWidth
+    public static final int SegmentedHost_segmentedBar
+    public static final int SegmentedHost_segmentedContentView
+    public static final int SubtextItem_subtext
+    public static final int SubtitleItem_subtitle
+    public static final int TextItem_text
+    public static final int ThumbnailItem_thumbnail
+    public static final int ThumbnailItem_thumbnailURL
+com.cyrilmottier.android.greendroid.R$xml
+com.google.ads.Ad:
+    public abstract boolean isReady()
+    public abstract void loadAd(com.google.ads.AdRequest)
+    public abstract void setAdListener(com.google.ads.AdListener)
+    public abstract void stopLoading()
+com.google.ads.AdActivity:
+    public static final java.lang.String BASE_URL_PARAM
+    public static final java.lang.String HTML_PARAM
+    public static final java.lang.String URL_PARAM
+    public static final java.lang.String INTENT_ACTION_PARAM
+    public static final java.lang.String TYPE_PARAM
+    public static final java.lang.String ORIENTATION_PARAM
+com.google.ads.AdRequest:
+    public static final java.lang.String VERSION
+    public static final java.lang.String LOGTAG
+    public void setGender(com.google.ads.AdRequest$Gender)
+    public void setBirthday(java.lang.String)
+    public void setKeywords(java.util.Set)
+    public void setExtras(java.util.Map)
+    public void addExtra(java.lang.String,java.lang.Object)
+    public void setLocation(android.location.Location)
+    public void setTesting(boolean)
+    public void addTestDevice(java.lang.String)
+    public void setTestDevices(java.util.Set)
+com.google.ads.AdSize:
+    public AdSize(int,int)
+com.google.ads.AdView:
+    public AdView(android.app.Activity,com.google.ads.AdSize,java.lang.String)
+    public void destroy()
+    public boolean isReady()
+    public void setAdListener(com.google.ads.AdListener)
+    public void stopLoading()
+com.google.ads.InterstitialAd:
+    private d a
+    public InterstitialAd(android.app.Activity,java.lang.String)
+    public InterstitialAd(android.app.Activity,java.lang.String,boolean)
+    public boolean isReady()
+    public void loadAd(com.google.ads.AdRequest)
+    public void show()
+    public void setAdListener(com.google.ads.AdListener)
+    public void stopLoading()
+com.google.ads.R
+com.google.ads.R$attr
+com.google.ads.R$id
+com.google.ads.R$layout
+com.google.android.apps.analytics.AnalyticsReceiver:
+    static final java.lang.String INSTALL_ACTION
+    static final java.lang.String REFERRER_KEY
+com.google.android.apps.analytics.CustomVariable:
+    public static final int MAX_CUSTOM_VARIABLES
+    public static final java.lang.String INDEX_ERROR_MSG
+    public static final int VISITOR_SCOPE
+    public static final int SESSION_SCOPE
+    public static final int PAGE_SCOPE
+    public static final int MAX_CUSTOM_VARIABLE_LENGTH
+    public CustomVariable(int,java.lang.String,java.lang.String)
+com.google.android.apps.analytics.Dispatcher:
+    public abstract boolean isDryRun()
+com.google.android.apps.analytics.Event:
+    static final java.lang.String PAGEVIEW_EVENT_CATEGORY
+    static final java.lang.String INSTALL_EVENT_CATEGORY
+    static final java.lang.String TRANSACTION_CATEGORY
+    static final java.lang.String ITEM_CATEGORY
+com.google.android.apps.analytics.GoogleAnalyticsTracker:
+    public static final java.lang.String PRODUCT
+    public static final java.lang.String VERSION
+    public static final java.lang.String WIRE_VERSION
+    public static final java.lang.String LOG_TAG
+    public void start(java.lang.String,android.content.Context)
+    public void startNewSession(java.lang.String,android.content.Context)
+    com.google.android.apps.analytics.Dispatcher getDispatcher()
+    public void setProductVersion(java.lang.String,java.lang.String)
+    public void stopSession()
+    com.google.android.apps.analytics.HitStore getHitStore()
+    public boolean setCustomVar(int,java.lang.String,java.lang.String,int)
+    public boolean setCustomVar(int,java.lang.String,java.lang.String)
+    public java.lang.String getVisitorCustomVar(int)
+    public void addTransaction(com.google.android.apps.analytics.Transaction)
+    public void addItem(com.google.android.apps.analytics.Item)
+    public void trackTransactions()
+    public void clearTransactions()
+    public void setAnonymizeIp(boolean)
+    public boolean getAnonymizeIp()
+    public void setSampleRate(int)
+    public int getSampleRate()
+    public boolean setReferrer(java.lang.String)
+    public void setDebug(boolean)
+    public void setDryRun(boolean)
+    public boolean isDryRun()
+com.google.android.apps.analytics.HitBuilder:
+    private static final java.lang.String GOOGLE_ANALYTICS_GIF_PATH
+    static final java.lang.String FAKE_DOMAIN_HASH
+    private static final int X10_PROJECT_NAMES
+    private static final int X10_PROJECT_VALUES
+    private static final int X10_PROJECT_SCOPES
+com.google.android.apps.analytics.HitStore:
+    public abstract com.google.android.apps.analytics.Hit[] peekHits(int)
+    public abstract int getStoreId()
+    public abstract com.google.android.apps.analytics.Referrer getReferrer()
+    public abstract void clearReferrer()
+    public abstract void loadExistingSession()
+    public abstract java.lang.String getVisitorCustomVar(int)
+com.google.android.apps.analytics.NetworkDispatcher:
+    private static final java.lang.String GOOGLE_ANALYTICS_HOST_NAME
+    private static final int GOOGLE_ANALYTICS_HOST_PORT
+    private static final java.lang.String USER_AGENT_TEMPLATE
+    private static final int MAX_EVENTS_PER_PIPELINE
+    private static final int MAX_SEQUENTIAL_REQUESTS
+    private static final long MIN_RETRY_INTERVAL
+    public void init(com.google.android.apps.analytics.Dispatcher$Callbacks,com.google.android.apps.analytics.PipelinedRequester,com.google.android.apps.analytics.HitStore)
+    public void waitForThreadLooper()
+    java.lang.String getUserAgent()
+com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread:
+    NetworkDispatcher$DispatcherThread(com.google.android.apps.analytics.Dispatcher$Callbacks,com.google.android.apps.analytics.PipelinedRequester,java.lang.String,com.google.android.apps.analytics.NetworkDispatcher,com.google.android.apps.analytics.NetworkDispatcher$1)
+com.google.android.apps.analytics.PersistentHitStore:
+    private static final int MAX_HITS
+    private static final java.lang.String STORE_ID
+    private static final java.lang.String EVENT_ID
+    private static final java.lang.String SCREEN_WIDTH
+    private static final java.lang.String SCREEN_HEIGHT
+    private static final java.lang.String VALUE
+    private static final java.lang.String LABEL
+    private static final java.lang.String ACTION
+    private static final java.lang.String CATEGORY
+    private static final java.lang.String VISITS
+    private static final java.lang.String TIMESTAMP_CURRENT
+    private static final java.lang.String TIMESTAMP_PREVIOUS
+    private static final java.lang.String TIMESTAMP_FIRST
+    private static final java.lang.String RANDOM_VAL
+    private static final java.lang.String ACCOUNT_ID
+    private static final java.lang.String USER_ID
+    private static final java.lang.String REFERRER_COLUMN
+    private static final java.lang.String REFERRER
+    private static final java.lang.String TIMESTAMP_REFERRER
+    private static final java.lang.String CUSTOMVAR_ID
+    private static final java.lang.String CUSTOMVAR_INDEX
+    private static final java.lang.String CUSTOMVAR_NAME
+    private static final java.lang.String CUSTOMVAR_VALUE
+    private static final java.lang.String CUSTOMVAR_SCOPE
+    private static final java.lang.String CUSTOM_VARIABLE_COLUMN_TYPE
+    private static final java.lang.String TRANSACTION_ID
+    private static final java.lang.String ORDER_ID
+    private static final java.lang.String STORE_NAME
+    private static final java.lang.String TOTAL_COST
+    private static final java.lang.String TOTAL_TAX
+    private static final java.lang.String SHIPPING_COST
+    private static final java.lang.String ITEM_ID
+    private static final java.lang.String ITEM_SKU
+    private static final java.lang.String ITEM_NAME
+    private static final java.lang.String ITEM_CATEGORY
+    private static final java.lang.String ITEM_PRICE
+    private static final java.lang.String ITEM_COUNT
+    private static final java.lang.String HIT_ID
+    private static final java.lang.String HIT_STRING
+    private static final java.lang.String HIT_TIMESTAMP
+    private static final java.lang.String DATABASE_NAME
+    private static final int DATABASE_VERSION
+    private static final boolean UPDATE_TIMESTAMP
+    private static final java.lang.String CREATE_INSTALL_REFERRER_TABLE
+    private static final java.lang.String CREATE_REFERRER_TABLE
+    PersistentHitStore(android.content.Context,java.lang.String)
+    PersistentHitStore(com.google.android.apps.analytics.PersistentHitStore$DataBaseHelper)
+    com.google.android.apps.analytics.PersistentHitStore$DataBaseHelper getDatabaseHelper()
+    long getTimestampFirst()
+    long getTimestampPrevious()
+    long getTimestampCurrent()
+    public java.lang.String getVisitorCustomVar(int)
+    public int getStoreId()
+    public com.google.android.apps.analytics.Referrer getReferrer()
+    public void clearReferrer()
+com.google.android.apps.analytics.PersistentHitStore$DataBaseHelper:
+    public PersistentHitStore$DataBaseHelper(android.content.Context,com.google.android.apps.analytics.PersistentHitStore)
+    public PersistentHitStore$DataBaseHelper(android.content.Context,java.lang.String,com.google.android.apps.analytics.PersistentHitStore)
+d:
+    public final synchronized void b()
+    public final synchronized boolean o()
+    public final synchronized void a(com.google.ads.AdListener)
+    public final synchronized void y()
+    public final synchronized void z()
+greendroid.app.ActionBarActivity
+greendroid.app.GDActivity:
+    229:229:public greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem)
+    233:233:public greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem,int)
+    237:237:public greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem$Type)
+    256:259:public void setActionBarContentView(android.view.View,android.view.ViewGroup$LayoutParams)
+    262:265:public void setActionBarContentView(android.view.View)
+greendroid.app.GDApplication:
+    private static final int CORE_POOL_SIZE
+    125:136:public void unregisterOnLowMemoryListener(greendroid.app.GDApplication$OnLowMemoryListener)
+greendroid.app.GDExpandableListActivity:
+    106:107:public android.widget.ExpandableListView getExpandableListView()
+    115:115:public android.widget.ExpandableListAdapter getExpandableListAdapter()
+    166:167:public void setActionBarContentView(android.view.View,android.view.ViewGroup$LayoutParams)
+    171:172:public void setActionBarContentView(android.view.View)
+    191:191:public long getSelectedId()
+    206:206:public long getSelectedPosition()
+    221:221:public boolean setSelectedChild(int,int,boolean)
+    230:231:public void setSelectedGroup(int)
+greendroid.app.GDListActivity:
+    83:84:public void setSelection(int)
+    92:92:public int getSelectedItemPosition()
+    101:101:public long getSelectedItemId()
+    123:123:public android.widget.ListAdapter getListAdapter()
+    195:196:public void setActionBarContentView(android.view.View,android.view.ViewGroup$LayoutParams)
+    200:201:public void setActionBarContentView(android.view.View)
+greendroid.app.GDTabActivity:
+    128:128:public greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem)
+    132:132:public greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem,int)
+    136:136:public greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem$Type)
+    140:140:public greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem$Type,int)
+    144:144:public android.widget.FrameLayout getContentView()
+    180:181:public void addTab(java.lang.String,int,android.content.Intent)
+    184:194:public void addTab(java.lang.String,java.lang.CharSequence,android.content.Intent)
+    198:198:protected android.view.View createTabIndicator(java.lang.CharSequence)
+    212:212:protected android.view.View createTabIndicator(java.lang.String,java.lang.CharSequence,android.view.ViewGroup)
+greendroid.graphics.drawable.ActionBarDrawable:
+    52:53:public ActionBarDrawable(android.content.res.Resources,int)
+    57:58:public ActionBarDrawable(android.content.res.Resources,android.graphics.drawable.Drawable)
+    62:63:public ActionBarDrawable(android.content.res.Resources,int,int,int)
+    67:70:public ActionBarDrawable(android.content.res.Resources,android.graphics.drawable.Drawable,int,int)
+    82:83:public ActionBarDrawable(android.content.Context,int,int,int)
+greendroid.image.ChainImageProcessor
+greendroid.image.ImageCache:
+    37:37:public static greendroid.image.ImageCache from(android.content.Context)
+greendroid.image.ImageLoader:
+    private static final int ON_START
+    private static final int ON_FAIL
+    private static final int ON_END
+    85:85:public java.util.concurrent.Future loadImage(java.lang.String,greendroid.image.ImageLoader$ImageLoaderCallback)
+    89:89:public java.util.concurrent.Future loadImage(java.lang.String,greendroid.image.ImageLoader$ImageLoaderCallback,greendroid.image.ImageProcessor)
+greendroid.image.ImageRequest:
+    61:62:public ImageRequest(java.lang.String,greendroid.image.ImageRequest$ImageRequestCallback)
+    65:66:public ImageRequest(java.lang.String,greendroid.image.ImageRequest$ImageRequestCallback,greendroid.image.ImageProcessor)
+    76:77:public void setImageRequestCallback(greendroid.image.ImageRequest$ImageRequestCallback)
+    80:80:public java.lang.String getUrl()
+greendroid.image.MaskImageProcessor
+greendroid.image.ScaleImageProcessor
+greendroid.util.Config
+greendroid.util.Md5Util
+greendroid.util.Time
+greendroid.widget.ActionBar:
+    public static final int NONE
+    private static final int MAX_ITEMS_COUNT
+    175:175:public greendroid.widget.ActionBarItem addItem(greendroid.widget.ActionBarItem$Type)
+    183:183:public greendroid.widget.ActionBarItem addItem(greendroid.widget.ActionBarItem)
+    229:230:public void removeItem(greendroid.widget.ActionBarItem)
+    234:242:public void removeItem(int)
+    245:272:public void setType(greendroid.widget.ActionBar$Type)
+greendroid.widget.ActionBar$OnActionBarListener:
+    public static final int HOME_ITEM
+greendroid.widget.ActionBarItem:
+    80:80:public android.graphics.drawable.Drawable getDrawable()
+    84:84:public greendroid.widget.ActionBarItem setDrawable(int)
+    98:98:public java.lang.CharSequence getContentDescription()
+greendroid.widget.AsyncImageView:
+    private static final int IMAGE_SOURCE_UNKNOWN
+    private static final int IMAGE_SOURCE_RESOURCE
+    private static final int IMAGE_SOURCE_DRAWABLE
+    private static final int IMAGE_SOURCE_BITMAP
+    156:156:public boolean isLoading()
+    166:166:public boolean isLoaded()
+    176:182:public void setPaused(boolean)
+    211:212:public void setOptions(android.graphics.BitmapFactory$Options)
+    270:271:public void setOnImageViewLoadListener(greendroid.widget.AsyncImageView$OnImageViewLoadListener)
+    321:324:public void setDefaultImageBitmap(android.graphics.Bitmap)
+    343:346:public void setDefaultImageResource(int)
+    357:358:public void setImageProcessor(greendroid.image.ImageProcessor)
+greendroid.widget.ItemAdapter
+greendroid.widget.ItemAdapter$TypeInfo
+greendroid.widget.PageIndicator:
+    public static final int NO_ACTIVE_DOT
+    private static final int MIN_DOT_COUNT
+    129:129:public int getDotCount()
+    159:159:public int getActiveDot()
+    198:198:public android.graphics.drawable.Drawable getDotDrawable()
+    240:240:public int getDotSpacing()
+    262:262:public int getGravity()
+    285:285:public int getDotType()
+greendroid.widget.PageIndicator$DotType
+greendroid.widget.PagedAdapter:
+    public abstract java.lang.Object getItem(int)
+    public abstract long getItemId(int)
+    43:43:public boolean hasStableIds()
+    49:49:public final int getItemViewType(int)
+    53:53:public final int getViewTypeCount()
+    57:57:public final boolean isEmpty()
+    69:70:public void notifyDataSetChanged()
+greendroid.widget.PagedView:
+    private static final int INVALID_PAGE
+    private static final int MINIMUM_PAGE_CHANGE_VELOCITY
+    private static final int VELOCITY_UNITS
+    private static final int FRAME_RATE
+    350:351:public void setOnPageChangeListener(greendroid.widget.PagedView$OnPagedViewChangeListener)
+    391:391:public int getCurrentPage()
+    412:413:public void smoothScrollToNext()
+    419:420:public void smoothScrollToPrevious()
+    428:429:public void scrollToPage(int)
+    435:436:public void scrollToNext()
+    442:443:public void scrollToPrevious()
+greendroid.widget.QuickAction:
+    38:41:public QuickAction(android.graphics.drawable.Drawable,java.lang.CharSequence)
+    43:46:public QuickAction(android.content.Context,int,java.lang.CharSequence)
+greendroid.widget.QuickActionGrid
+greendroid.widget.QuickActionGrid$1
+greendroid.widget.QuickActionGrid$2
+greendroid.widget.QuickActionWidget:
+    private static final int MEASURE_AND_LAYOUT_DONE
+    140:141:public void setArrowOffsetY(int)
+    170:171:public void setDismissOnClick(boolean)
+    203:207:public void clearAllQuickActions()
+greendroid.widget.SegmentedAdapter
+greendroid.widget.SegmentedBar
+greendroid.widget.SegmentedBar$OnSegmentChangeListener
+greendroid.widget.SegmentedBar$SegmentCheckedListener
+greendroid.widget.SegmentedBar$SegmentClickedListener
+greendroid.widget.SegmentedHost
+greendroid.widget.SegmentedHost$1
+greendroid.widget.SegmentedHost$SegmentSwitcher
+greendroid.widget.item.DescriptionItem
+greendroid.widget.item.DrawableItem
+greendroid.widget.item.Item
+greendroid.widget.item.LongTextItem
+greendroid.widget.item.ProgressItem
+greendroid.widget.item.SeparatorItem
+greendroid.widget.item.SubtextItem
+greendroid.widget.item.SubtitleItem
+greendroid.widget.item.TextItem
+greendroid.widget.item.ThumbnailItem
+greendroid.widget.itemview.DescriptionItemView
+greendroid.widget.itemview.DrawableItemView
+greendroid.widget.itemview.ItemView
+greendroid.widget.itemview.LongTextItemView
+greendroid.widget.itemview.ProgressItemView
+greendroid.widget.itemview.SeparatorItemView
+greendroid.widget.itemview.SubtextItemView
+greendroid.widget.itemview.SubtitleItemView
+greendroid.widget.itemview.TextItemView
+greendroid.widget.itemview.ThumbnailItemView

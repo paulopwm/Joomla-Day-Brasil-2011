@@ -1,0 +1,1527 @@
+a -> l:
+    java.util.Map a -> a
+    java.util.Map b -> b
+    void a(d,java.util.Map,android.net.Uri,android.webkit.WebView) -> a
+    boolean a(android.net.Uri) -> a
+    boolean b(android.net.Uri) -> b
+    boolean c(android.net.Uri) -> c
+    void a(android.webkit.WebView,java.lang.String,java.lang.String) -> a
+    void a(android.webkit.WebView,java.lang.String) -> a
+    void a(android.webkit.WebView,java.util.Map) -> a
+    void a(android.webkit.WebView) -> a
+    void b(android.webkit.WebView) -> b
+b -> j:
+    c a -> a
+    d b -> b
+    boolean c -> c
+    java.lang.String d -> d
+    void a() -> a
+    void a(java.net.HttpURLConnection) -> a
+    void b(java.net.HttpURLConnection) -> b
+    void a(java.lang.String) -> a
+    void run() -> run
+c -> k:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    b c -> c
+    d d -> d
+    com.google.ads.AdRequest e -> e
+    android.webkit.WebView f -> f
+    java.lang.String g -> g
+    java.util.LinkedList h -> h
+    boolean i -> i
+    com.google.ads.AdRequest$ErrorCode j -> j
+    boolean k -> k
+    int l -> l
+    java.lang.Thread m -> m
+    void a(java.lang.String) -> a
+    void a(com.google.ads.AdRequest) -> a
+    void run() -> run
+    java.lang.String a(com.google.ads.AdRequest,android.app.Activity) -> a
+    void a(com.google.ads.AdRequest$ErrorCode,boolean) -> a
+    void a(java.lang.String,java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(com.google.ads.AdRequest$ErrorCode) -> a
+    void b() -> a
+    void a(int) -> a
+c$a -> a:
+    d b -> a
+    android.webkit.WebView c -> b
+    b d -> c
+    com.google.ads.AdRequest$ErrorCode e -> d
+    boolean f -> e
+    c a -> f
+    void run() -> run
+c$b -> b:
+    c a -> a
+c$c -> c:
+    java.lang.String b -> a
+    java.lang.String c -> b
+    android.webkit.WebView d -> c
+    c a -> d
+    void run() -> run
+c$d -> d:
+    c a -> a
+c$e -> e:
+    d b -> a
+    java.util.LinkedList c -> b
+    int d -> c
+    c a -> d
+    void run() -> run
+com.JoomlaDay.AboutActivity -> com.JoomlaDay.AboutActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.JoomlaDay.Evento -> com.JoomlaDay.u:
+    java.lang.String title -> a
+    java.lang.String description -> b
+    java.lang.String local -> c
+    java.lang.String date -> d
+    java.lang.String getTitle() -> a
+    java.lang.String getDescription() -> b
+    java.lang.String getLocal() -> c
+    java.lang.String getDate() -> d
+com.JoomlaDay.FileCache -> com.JoomlaDay.as:
+    java.io.File cacheDir -> a
+    java.io.File fileCache -> b
+    java.io.File getFile(java.lang.String) -> a
+    boolean saveFile(java.lang.String) -> b
+    java.lang.String readFile(java.lang.String) -> c
+    void clear() -> a
+com.JoomlaDay.HashtagList -> com.JoomlaDay.HashtagList:
+    android.app.ProgressDialog progressDialog -> b
+    android.os.Handler mHandler -> c
+    com.JoomlaDay.Internet internet -> d
+    java.util.List tweets -> e
+    java.util.List newTweets -> f
+    com.JoomlaDay.TwitterAdapter tweet -> g
+    greendroid.widget.LoaderActionBarItem loaderItem -> h
+    greendroid.widget.QuickActionWidget mBar -> i
+    int selectedItem -> j
+    com.google.android.apps.analytics.GoogleAnalyticsTracker tracker -> k
+    java.lang.Runnable mUpdateTweetList -> a
+    greendroid.widget.QuickActionWidget$OnQuickActionClickListener mActionListener -> l
+    void getTweets() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    int createLayout() -> a
+    void initAll() -> b
+    void showAlert() -> d_
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void share() -> d
+    void onShowBar(android.view.View) -> a
+    void onDestroy() -> onDestroy
+    java.util.List access$0(com.JoomlaDay.HashtagList) -> a
+    java.util.List access$1(com.JoomlaDay.HashtagList) -> b
+    com.JoomlaDay.TwitterAdapter access$2(com.JoomlaDay.HashtagList) -> c
+    android.app.ProgressDialog access$3(com.JoomlaDay.HashtagList) -> d
+    greendroid.widget.LoaderActionBarItem access$4(com.JoomlaDay.HashtagList) -> e
+    int access$5(com.JoomlaDay.HashtagList) -> f
+    void access$7(com.JoomlaDay.HashtagList,java.util.List) -> a
+    android.os.Handler access$8(com.JoomlaDay.HashtagList) -> g
+    void access$9(com.JoomlaDay.HashtagList,int) -> a
+com.JoomlaDay.HashtagList$1 -> com.JoomlaDay.e:
+    com.JoomlaDay.HashtagList this$0 -> a
+    void run() -> run
+com.JoomlaDay.HashtagList$2 -> com.JoomlaDay.f:
+    com.JoomlaDay.HashtagList this$0 -> a
+    void onQuickActionClicked$2f4cd209(int) -> a
+com.JoomlaDay.HashtagList$3 -> com.JoomlaDay.k:
+    com.JoomlaDay.HashtagList this$0 -> a
+    void run() -> run
+com.JoomlaDay.HashtagList$4 -> com.JoomlaDay.i:
+    com.JoomlaDay.HashtagList this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.JoomlaDay.HashtagList$5 -> com.JoomlaDay.h:
+    com.JoomlaDay.HashtagList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.HashtagList$6 -> com.JoomlaDay.g:
+    com.JoomlaDay.HashtagList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.ImageLoader -> com.JoomlaDay.s:
+    com.JoomlaDay.MemoryCache memoryCache -> a
+    com.JoomlaDay.FileCache fileCache -> c
+    int stub_id -> d
+    com.JoomlaDay.ImageLoader$PhotosQueue photosQueue -> b
+    com.JoomlaDay.ImageLoader$PhotosLoader photoLoaderThread -> e
+    void DisplayImage$78054775(java.lang.String,android.widget.ImageView) -> a
+    android.graphics.Bitmap getBitmap(java.lang.String) -> a
+    android.graphics.Bitmap decodeFile(java.io.File) -> a
+    android.graphics.Bitmap access$0(com.JoomlaDay.ImageLoader,java.lang.String) -> a
+com.JoomlaDay.ImageLoader$BitmapDisplayer -> com.JoomlaDay.c:
+    android.graphics.Bitmap bitmap -> a
+    android.widget.ImageView imageView -> b
+    com.JoomlaDay.ImageLoader this$0 -> c
+    void run() -> run
+com.JoomlaDay.ImageLoader$PhotoToLoad -> com.JoomlaDay.m:
+    java.lang.String url -> a
+    android.widget.ImageView imageView -> b
+    com.JoomlaDay.ImageLoader this$0 -> c
+com.JoomlaDay.ImageLoader$PhotosLoader -> com.JoomlaDay.w:
+    com.JoomlaDay.ImageLoader this$0 -> a
+    void run() -> run
+com.JoomlaDay.ImageLoader$PhotosQueue -> com.JoomlaDay.x:
+    java.util.Stack photosToLoad -> a
+    com.JoomlaDay.ImageLoader this$0 -> b
+    void Clean(android.widget.ImageView) -> a
+    java.util.Stack access$0(com.JoomlaDay.ImageLoader$PhotosQueue) -> a
+com.JoomlaDay.Internet -> com.JoomlaDay.d:
+    boolean checkInternetConnection(android.content.Context) -> a
+    java.lang.String getInternet(android.content.Context,java.lang.String) -> a
+    java.util.ArrayList JSON(java.lang.String,android.content.Context) -> d
+    java.util.List getTwitter(java.lang.String,android.content.Context) -> a
+    java.util.List getNoticias(java.lang.String,android.content.Context) -> b
+    java.util.List getProgramacao(java.lang.String,android.content.Context) -> c
+com.JoomlaDay.Launcher -> com.JoomlaDay.Launcher:
+    java.lang.Class getHomeActivityClass() -> c
+com.JoomlaDay.Main -> com.JoomlaDay.Main:
+    com.google.android.apps.analytics.GoogleAnalyticsTracker tracker -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    int createLayout() -> a
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void share() -> e
+    void onDestroy() -> onDestroy
+com.JoomlaDay.Main$1 -> com.JoomlaDay.v:
+    com.JoomlaDay.Main this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.JoomlaDay.MemoryCache -> com.JoomlaDay.z:
+    java.util.HashMap cache -> a
+    android.graphics.Bitmap get(java.lang.String) -> a
+    void put(java.lang.String,android.graphics.Bitmap) -> a
+com.JoomlaDay.MenuItensAdapter -> com.JoomlaDay.l:
+    android.app.Activity mActivity -> a
+    java.lang.Integer[] mThumbIds -> b
+    java.lang.Integer[] mTitles -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.JoomlaDay.MyQuickAction -> com.JoomlaDay.a:
+    android.graphics.ColorFilter BLACK_CF -> d
+com.JoomlaDay.NewsAdapter -> com.JoomlaDay.o:
+    android.app.Activity activity -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    com.JoomlaDay.ImageLoader imageLoader -> d
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.JoomlaDay.NewsAdapter$ViewHolder -> com.JoomlaDay.t:
+    android.widget.TextView NewsTitle -> a
+    android.widget.TextView NewsAuthor -> b
+    android.widget.TextView NewsDate -> c
+    android.widget.ImageView NewsImg -> d
+com.JoomlaDay.NewsItemView -> com.JoomlaDay.NewsItemView:
+    java.lang.String newsTitle -> a
+    java.lang.String newsAuthor -> b
+    java.lang.String newsLink -> c
+    java.lang.String newsDescription -> d
+    java.lang.String newsImage -> e
+    java.lang.String newsDate -> f
+    greendroid.widget.AsyncImageView mImageView -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.JoomlaDay.NewsList -> com.JoomlaDay.NewsList:
+    android.app.ProgressDialog progressDialog -> b
+    android.os.Handler mHandler -> c
+    com.JoomlaDay.Internet internet -> d
+    java.util.List noticias -> e
+    java.util.List newNoticias -> f
+    com.JoomlaDay.NewsAdapter news -> g
+    android.content.SharedPreferences prefs -> h
+    greendroid.widget.LoaderActionBarItem loaderItem -> i
+    greendroid.widget.QuickActionWidget mBar -> j
+    int selectedItem -> k
+    com.google.android.apps.analytics.GoogleAnalyticsTracker tracker -> l
+    java.lang.Runnable mUpdateNewsList -> a
+    greendroid.widget.QuickActionWidget$OnQuickActionClickListener mActionListener -> m
+    void getNoticias() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    int createLayout() -> a
+    void initAll() -> b
+    void showAlert() -> e_
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void share() -> d
+    void onShowBar(android.view.View) -> a
+    void onDestroy() -> onDestroy
+    java.util.List access$0(com.JoomlaDay.NewsList) -> a
+    java.util.List access$1(com.JoomlaDay.NewsList) -> b
+    com.JoomlaDay.NewsAdapter access$2(com.JoomlaDay.NewsList) -> c
+    android.app.ProgressDialog access$3(com.JoomlaDay.NewsList) -> d
+    greendroid.widget.LoaderActionBarItem access$4(com.JoomlaDay.NewsList) -> e
+    int access$5(com.JoomlaDay.NewsList) -> f
+    android.content.SharedPreferences access$6(com.JoomlaDay.NewsList) -> g
+    void access$8(com.JoomlaDay.NewsList,java.util.List) -> a
+    android.os.Handler access$9(com.JoomlaDay.NewsList) -> h
+    void access$10(com.JoomlaDay.NewsList,int) -> a
+com.JoomlaDay.NewsList$1 -> com.JoomlaDay.ap:
+    com.JoomlaDay.NewsList this$0 -> a
+    void run() -> run
+com.JoomlaDay.NewsList$2 -> com.JoomlaDay.av:
+    com.JoomlaDay.NewsList this$0 -> a
+    void onQuickActionClicked$2f4cd209(int) -> a
+com.JoomlaDay.NewsList$3 -> com.JoomlaDay.au:
+    com.JoomlaDay.NewsList this$0 -> a
+    void run() -> run
+com.JoomlaDay.NewsList$4 -> com.JoomlaDay.at:
+    com.JoomlaDay.NewsList this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.JoomlaDay.NewsList$5 -> com.JoomlaDay.ar:
+    com.JoomlaDay.NewsList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.NewsList$6 -> com.JoomlaDay.aq:
+    com.JoomlaDay.NewsList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.Noticias -> com.JoomlaDay.ab:
+    java.lang.String title -> a
+    java.lang.String description -> b
+    java.lang.String author -> c
+    java.lang.String link -> d
+    java.lang.String image -> e
+    java.lang.String date -> f
+    java.lang.String getTitle() -> a
+    java.lang.String getDescription() -> b
+    java.lang.String getAuthor() -> c
+    java.lang.String getLink() -> d
+    java.lang.String getImage() -> e
+    java.lang.String getDate() -> f
+com.JoomlaDay.OficialList -> com.JoomlaDay.OficialList:
+    android.app.ProgressDialog progressDialog -> b
+    android.os.Handler mHandler -> c
+    com.JoomlaDay.Internet internet -> d
+    java.util.List tweets -> e
+    java.util.List newTweets -> f
+    com.JoomlaDay.TwitterAdapter tweet -> g
+    greendroid.widget.LoaderActionBarItem loaderItem -> h
+    greendroid.widget.QuickActionWidget mBar -> i
+    int selectedItem -> j
+    com.google.android.apps.analytics.GoogleAnalyticsTracker tracker -> k
+    java.lang.Runnable mUpdateTweetList -> a
+    greendroid.widget.QuickActionWidget$OnQuickActionClickListener mActionListener -> l
+    void getTweets() -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    int createLayout() -> a
+    void initAll() -> b
+    void showAlert() -> a_
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void share() -> d
+    void onShowBar(android.view.View) -> a
+    void onDestroy() -> onDestroy
+    java.util.List access$0(com.JoomlaDay.OficialList) -> a
+    java.util.List access$1(com.JoomlaDay.OficialList) -> b
+    com.JoomlaDay.TwitterAdapter access$2(com.JoomlaDay.OficialList) -> c
+    android.app.ProgressDialog access$3(com.JoomlaDay.OficialList) -> d
+    greendroid.widget.LoaderActionBarItem access$4(com.JoomlaDay.OficialList) -> e
+    int access$5(com.JoomlaDay.OficialList) -> f
+    void access$7(com.JoomlaDay.OficialList,java.util.List) -> a
+    android.os.Handler access$8(com.JoomlaDay.OficialList) -> g
+    void access$9(com.JoomlaDay.OficialList,int) -> a
+com.JoomlaDay.OficialList$1 -> com.JoomlaDay.af:
+    com.JoomlaDay.OficialList this$0 -> a
+    void run() -> run
+com.JoomlaDay.OficialList$2 -> com.JoomlaDay.ah:
+    com.JoomlaDay.OficialList this$0 -> a
+    void onQuickActionClicked$2f4cd209(int) -> a
+com.JoomlaDay.OficialList$3 -> com.JoomlaDay.ag:
+    com.JoomlaDay.OficialList this$0 -> a
+    void run() -> run
+com.JoomlaDay.OficialList$4 -> com.JoomlaDay.ad:
+    com.JoomlaDay.OficialList this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.JoomlaDay.OficialList$5 -> com.JoomlaDay.ac:
+    com.JoomlaDay.OficialList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.OficialList$6 -> com.JoomlaDay.ae:
+    com.JoomlaDay.OficialList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.Preferences -> com.JoomlaDay.Preferences:
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.JoomlaDay.Preferences$1 -> com.JoomlaDay.j:
+    com.JoomlaDay.Preferences this$0 -> a
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+com.JoomlaDay.ProgramacaoAdapter -> com.JoomlaDay.am:
+    android.app.Activity activity -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.JoomlaDay.ProgramacaoAdapter$ViewHolder -> com.JoomlaDay.y:
+    android.widget.TextView ProgTitle -> a
+    android.widget.TextView ProgLocal -> b
+    android.widget.TextView ProgDate -> c
+com.JoomlaDay.ProgramacaoItemView -> com.JoomlaDay.ProgramacaoItemView:
+    java.lang.String progTitle -> a
+    java.lang.String progLocal -> b
+    java.lang.String progDescription -> c
+    java.lang.String progDate -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.JoomlaDay.ProgramacaoList -> com.JoomlaDay.ProgramacaoList:
+    android.app.ProgressDialog progressDialog -> b
+    android.os.Handler mHandler -> c
+    com.JoomlaDay.Internet internet -> d
+    java.util.List eventos -> e
+    java.util.List newEventos -> f
+    com.JoomlaDay.ProgramacaoAdapter programacao -> g
+    greendroid.widget.LoaderActionBarItem loaderItem -> h
+    greendroid.widget.QuickActionWidget mBar -> i
+    int selectedItem -> j
+    com.google.android.apps.analytics.GoogleAnalyticsTracker tracker -> k
+    java.lang.Runnable mUpdateProgramacaoList -> a
+    greendroid.widget.QuickActionWidget$OnQuickActionClickListener mActionListener -> l
+    void getProgramacao() -> m
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    int createLayout() -> a
+    void initAll() -> e
+    void showAlert() -> f
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+    void share() -> g
+    void onShowBar(android.view.View) -> a
+    void onDestroy() -> onDestroy
+    java.util.List access$0(com.JoomlaDay.ProgramacaoList) -> a
+    java.util.List access$1(com.JoomlaDay.ProgramacaoList) -> b
+    com.JoomlaDay.ProgramacaoAdapter access$2(com.JoomlaDay.ProgramacaoList) -> c
+    android.app.ProgressDialog access$3(com.JoomlaDay.ProgramacaoList) -> d
+    greendroid.widget.LoaderActionBarItem access$4(com.JoomlaDay.ProgramacaoList) -> e
+    int access$5(com.JoomlaDay.ProgramacaoList) -> f
+    void access$7(com.JoomlaDay.ProgramacaoList,java.util.List) -> a
+    android.os.Handler access$8(com.JoomlaDay.ProgramacaoList) -> g
+    void access$9(com.JoomlaDay.ProgramacaoList,int) -> a
+com.JoomlaDay.ProgramacaoList$1 -> com.JoomlaDay.aj:
+    com.JoomlaDay.ProgramacaoList this$0 -> a
+    void run() -> run
+com.JoomlaDay.ProgramacaoList$2 -> com.JoomlaDay.ai:
+    com.JoomlaDay.ProgramacaoList this$0 -> a
+    void onQuickActionClicked$2f4cd209(int) -> a
+com.JoomlaDay.ProgramacaoList$3 -> com.JoomlaDay.ao:
+    com.JoomlaDay.ProgramacaoList this$0 -> a
+    void run() -> run
+com.JoomlaDay.ProgramacaoList$4 -> com.JoomlaDay.an:
+    com.JoomlaDay.ProgramacaoList this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.JoomlaDay.ProgramacaoList$5 -> com.JoomlaDay.al:
+    com.JoomlaDay.ProgramacaoList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.ProgramacaoList$6 -> com.JoomlaDay.ak:
+    com.JoomlaDay.ProgramacaoList this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.JoomlaDay.Tweet -> com.JoomlaDay.p:
+    java.lang.String text -> a
+    java.lang.String author -> b
+    java.lang.String image -> c
+    java.lang.String date -> d
+    java.lang.String getText() -> a
+    java.lang.String getAuthor() -> b
+    java.lang.String getImage() -> c
+    java.lang.String getDate() -> d
+com.JoomlaDay.TwitterAdapter -> com.JoomlaDay.n:
+    android.app.Activity activity -> a
+    java.util.List data -> b
+    android.view.LayoutInflater inflater -> c
+    com.JoomlaDay.ImageLoader imageLoader -> d
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.JoomlaDay.TwitterAdapter$ViewHolder -> com.JoomlaDay.b:
+    android.widget.TextView TwtText -> a
+    android.widget.TextView TwtAuthor -> b
+    android.widget.TextView TwtDate -> c
+    android.widget.ImageView TwtImg -> d
+com.JoomlaDay.Utils -> com.JoomlaDay.aa:
+    void CopyStream(java.io.InputStream,java.io.OutputStream) -> a
+com.JoomlaDay.WebActivity -> com.JoomlaDay.WebActivity:
+    android.webkit.WebView mWebView -> b
+    android.app.Activity activity -> a
+    java.lang.String url -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
+    boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
+com.JoomlaDay.WebActivity$1 -> com.JoomlaDay.r:
+    com.JoomlaDay.WebActivity this$0 -> a
+    void onProgressChanged(android.webkit.WebView,int) -> onProgressChanged
+com.JoomlaDay.WebActivity$2 -> com.JoomlaDay.q:
+    com.JoomlaDay.WebActivity this$0 -> a
+    void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String) -> onReceivedError
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+com.cyrilmottier.android.greendroid.R -> com.a.a.a.a:
+com.cyrilmottier.android.greendroid.R$styleable -> com.a.a.a.b:
+    int[] ActionBar -> a
+    int[] AsyncImageView -> b
+    int[] DescriptionItem -> d
+    int[] DrawableItem -> e
+    int[] Item -> f
+    int[] LongTextItem -> g
+    int[] PageIndicator -> c
+    int[] ProgressItem -> h
+    int[] SegmentedBar -> i
+    int[] SegmentedHost -> j
+    int[] SeparatorItem -> k
+    int[] SubtextItem -> l
+    int[] SubtitleItem -> m
+    int[] TextItem -> n
+    int[] ThumbnailItem -> o
+com.google.ads.Ad -> com.google.ads.a:
+com.google.ads.AdActivity -> com.google.ads.AdActivity:
+    java.lang.Object a -> a
+    com.google.ads.AdActivity b -> b
+    d c -> c
+    com.google.ads.AdActivity d -> d
+    com.google.ads.AdActivity e -> e
+    g f -> f
+    long g -> g
+    android.widget.RelativeLayout h -> h
+    com.google.ads.AdActivity i -> i
+    boolean j -> j
+    android.widget.VideoView k -> k
+    void a(java.lang.String) -> a
+    android.widget.VideoView getVideoView() -> a
+    g getOpeningAdWebView() -> b
+    boolean isShowing() -> c
+    void launchAdActivity(d,e) -> a
+    void onClick(android.view.View) -> onClick
+    void onCreate(android.os.Bundle) -> onCreate
+    void a(g,boolean,int) -> a
+    void showVideo(android.widget.VideoView) -> a
+    void onCompletion(android.media.MediaPlayer) -> onCompletion
+    void onDestroy() -> onDestroy
+    void onPrepared(android.media.MediaPlayer) -> onPrepared
+    boolean onError(android.media.MediaPlayer,int,int) -> onError
+    void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+com.google.ads.AdListener -> com.google.ads.b:
+com.google.ads.AdRequest -> com.google.ads.e:
+    com.google.ads.AdRequest$Gender a -> a
+    java.lang.String b -> b
+    java.util.Set c -> c
+    java.util.Map d -> d
+    android.location.Location e -> e
+    boolean f -> f
+    boolean g -> g
+    java.lang.String TEST_EMULATOR -> h
+    java.util.Set h -> i
+    void addKeyword(java.lang.String) -> a
+    java.util.Map getRequestMap(android.content.Context) -> a
+com.google.ads.AdRequest$ErrorCode -> com.google.ads.c:
+    com.google.ads.AdRequest$ErrorCode INVALID_REQUEST -> a
+    com.google.ads.AdRequest$ErrorCode NO_FILL -> b
+    com.google.ads.AdRequest$ErrorCode NETWORK_ERROR -> c
+    com.google.ads.AdRequest$ErrorCode INTERNAL_ERROR -> d
+    java.lang.String a -> e
+    com.google.ads.AdRequest$ErrorCode[] b -> f
+    com.google.ads.AdRequest$ErrorCode[] values() -> values
+    com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+com.google.ads.AdRequest$Gender -> com.google.ads.g:
+    com.google.ads.AdRequest$Gender MALE -> a
+    com.google.ads.AdRequest$Gender FEMALE -> b
+    java.lang.String a -> c
+    com.google.ads.AdRequest$Gender[] b -> d
+    com.google.ads.AdRequest$Gender[] values() -> values
+    com.google.ads.AdRequest$Gender valueOf(java.lang.String) -> valueOf
+    java.lang.String toString() -> toString
+com.google.ads.AdSize -> com.google.ads.f:
+    com.google.ads.AdSize BANNER -> a
+    com.google.ads.AdSize IAB_MRECT -> b
+    com.google.ads.AdSize IAB_BANNER -> c
+    com.google.ads.AdSize IAB_LEADERBOARD -> d
+    int a -> e
+    int b -> f
+    java.lang.String c -> g
+    int getWidth() -> a
+    int getHeight() -> b
+    java.lang.String toString() -> toString
+com.google.ads.AdView -> com.google.ads.AdView:
+    d a -> a
+    void a(android.content.Context,java.lang.String,int,com.google.ads.AdSize,android.util.AttributeSet) -> a
+    void a(android.content.Context,java.lang.String,com.google.ads.AdSize,android.util.AttributeSet) -> a
+    void a(android.content.Context,android.util.AttributeSet) -> a
+    void a(android.app.Activity,com.google.ads.AdSize,java.lang.String) -> a
+com.google.ads.InstallReceiver -> com.google.ads.InstallReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    java.lang.String a(java.lang.String,java.lang.String,java.lang.String) -> a
+    void forwardIntent(android.content.Context,android.content.Intent) -> a
+com.google.ads.InterstitialAd -> com.google.ads.d:
+com.google.ads.util.AdUtil -> com.google.ads.util.AdUtil:
+    int a -> a
+    java.lang.Boolean b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    android.media.AudioManager e -> e
+    boolean f -> f
+    boolean g -> g
+    java.lang.String h -> h
+    java.lang.String a(android.content.Context) -> a
+    int a() -> a
+    int b() -> b
+    int a(android.content.Context,android.util.DisplayMetrics) -> a
+    int b(android.content.Context,android.util.DisplayMetrics) -> b
+    boolean b(android.content.Context) -> b
+    boolean c(android.content.Context) -> c
+    boolean c() -> c
+    boolean a(android.net.Uri) -> a
+    java.lang.String a(java.lang.String) -> a
+    java.lang.String d(android.content.Context) -> d
+    java.lang.String e(android.content.Context) -> e
+    com.google.ads.util.AdUtil$a f(android.content.Context) -> f
+    android.util.DisplayMetrics a(android.app.Activity) -> a
+    java.lang.String a(android.location.Location) -> a
+    java.lang.String b(java.lang.String) -> b
+    java.util.HashMap b(android.net.Uri) -> b
+    boolean d() -> d
+    void a(boolean) -> a
+    void g(android.content.Context) -> g
+    java.lang.String h(android.content.Context) -> h
+    void a(android.webkit.WebView) -> a
+    void a(java.net.HttpURLConnection,android.content.Context) -> a
+    java.lang.String a(java.util.Map) -> a
+    org.json.JSONObject b(java.util.Map) -> b
+    org.json.JSONArray a(java.util.Set) -> a
+com.google.ads.util.AdUtil$UserActivityReceiver -> com.google.ads.util.AdUtil$UserActivityReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.google.ads.util.AdUtil$a -> com.google.ads.util.c:
+    com.google.ads.util.AdUtil$a a -> d
+    com.google.ads.util.AdUtil$a b -> a
+    com.google.ads.util.AdUtil$a c -> e
+    com.google.ads.util.AdUtil$a d -> b
+    com.google.ads.util.AdUtil$a e -> c
+    com.google.ads.util.AdUtil$a f -> f
+    com.google.ads.util.AdUtil$a[] g -> g
+    com.google.ads.util.AdUtil$a[] values() -> values
+    com.google.ads.util.AdUtil$a valueOf(java.lang.String) -> valueOf
+com.google.ads.util.a -> com.google.ads.util.d:
+    void a(java.lang.String) -> a
+    void b(java.lang.String) -> b
+    void a(java.lang.String,java.lang.Throwable) -> a
+    void c(java.lang.String) -> c
+    void d(java.lang.String) -> d
+    void e(java.lang.String) -> e
+    void b(java.lang.String,java.lang.Throwable) -> b
+    boolean a(java.lang.String,int) -> a
+com.google.ads.util.b -> com.google.ads.util.e:
+    boolean a -> a
+    java.lang.String a(byte[]) -> a
+com.google.ads.util.b$a -> com.google.ads.util.b:
+    byte[] a -> d
+    int b -> e
+com.google.ads.util.b$b -> com.google.ads.util.a:
+    byte[] h -> f
+    byte[] i -> g
+    byte[] j -> h
+    int c -> i
+    int k -> j
+    boolean d -> a
+    boolean e -> b
+    boolean f -> c
+    byte[] l -> k
+    boolean g -> l
+    boolean a(byte[],int) -> a
+com.google.ads.util.c -> com.google.ads.util.f:
+    int a(android.content.Context,android.util.DisplayMetrics) -> a
+    int b(android.content.Context,android.util.DisplayMetrics) -> b
+    int a(android.content.Context,float,int) -> a
+com.google.android.apps.analytics.AnalyticsParameterEncoder -> com.google.android.apps.analytics.f:
+    java.lang.String encode(java.lang.String,java.lang.String) -> a
+com.google.android.apps.analytics.AnalyticsReceiver -> com.google.android.apps.analytics.AnalyticsReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.google.android.apps.analytics.CustomVariable -> com.google.android.apps.analytics.g:
+    int scope -> a
+    java.lang.String name -> b
+    java.lang.String value -> c
+    int index -> d
+    int getScope() -> a
+    java.lang.String getName() -> b
+    java.lang.String getValue() -> c
+    int getIndex() -> d
+com.google.android.apps.analytics.CustomVariableBuffer -> com.google.android.apps.analytics.q:
+    com.google.android.apps.analytics.CustomVariable[] customVariables -> a
+    boolean isIndexAvailable(int) -> a
+    void setCustomVariable(com.google.android.apps.analytics.CustomVariable) -> a
+    com.google.android.apps.analytics.CustomVariable getCustomVariableAt(int) -> b
+    com.google.android.apps.analytics.CustomVariable[] getCustomVariableArray() -> a
+    void throwOnInvalidIndex(int) -> c
+    boolean hasCustomVariables() -> b
+com.google.android.apps.analytics.Dispatcher -> com.google.android.apps.analytics.b:
+    void dispatchHits(com.google.android.apps.analytics.Hit[]) -> a
+    void init(com.google.android.apps.analytics.Dispatcher$Callbacks) -> a
+    void stop() -> a
+    void setDryRun(boolean) -> a
+com.google.android.apps.analytics.Dispatcher$Callbacks -> com.google.android.apps.analytics.aa:
+    void hitDispatched(long) -> a
+    void dispatchFinished() -> a
+com.google.android.apps.analytics.Event -> com.google.android.apps.analytics.s:
+    long eventId -> i
+    java.lang.String accountId -> a
+    int randomVal -> j
+    int timestampFirst -> k
+    int timestampPrevious -> l
+    int timestampCurrent -> m
+    int visits -> n
+    int userId -> o
+    boolean anonymizeIp -> p
+    java.lang.String category -> b
+    java.lang.String action -> c
+    java.lang.String label -> d
+    int value -> e
+    int screenWidth -> f
+    int screenHeight -> g
+    com.google.android.apps.analytics.CustomVariableBuffer customVariableBuffer -> h
+    com.google.android.apps.analytics.Transaction transaction -> q
+    com.google.android.apps.analytics.Item item -> r
+    void setRandomVal(int) -> a
+    int getRandomVal() -> a
+    void setTimestampFirst(int) -> b
+    int getTimestampFirst() -> b
+    void setTimestampPrevious(int) -> c
+    int getTimestampPrevious() -> c
+    void setTimestampCurrent(int) -> d
+    int getTimestampCurrent() -> d
+    void setVisits(int) -> e
+    int getVisits() -> e
+    void setUserId(int) -> f
+    int getUserId() -> f
+    void setAnonymizeIp(boolean) -> a
+    boolean getAnonymizeIp() -> g
+    java.lang.String toString() -> toString
+    com.google.android.apps.analytics.Transaction getTransaction() -> h
+    void setTransaction(com.google.android.apps.analytics.Transaction) -> a
+    com.google.android.apps.analytics.Item getItem() -> i
+    void setItem(com.google.android.apps.analytics.Item) -> a
+    boolean isSessionInitialized() -> j
+com.google.android.apps.analytics.GoogleAnalyticsTracker -> com.google.android.apps.analytics.c:
+    com.google.android.apps.analytics.GoogleAnalyticsTracker INSTANCE -> a
+    boolean debug -> b
+    boolean dryRun -> c
+    boolean anonymizeIp -> d
+    int sampleRate -> e
+    java.lang.String accountId -> f
+    android.content.Context parent -> g
+    android.net.ConnectivityManager connetivityManager -> h
+    java.lang.String userAgentProduct -> i
+    java.lang.String userAgentVersion -> j
+    int dispatchPeriod -> k
+    com.google.android.apps.analytics.HitStore hitStore -> l
+    com.google.android.apps.analytics.Dispatcher dispatcher -> m
+    boolean powerSaveMode -> n
+    boolean dispatcherIsBusy -> o
+    com.google.android.apps.analytics.CustomVariableBuffer customVariableBuffer -> p
+    java.util.Map transactionMap -> q
+    java.util.Map itemMap -> r
+    android.os.Handler handler -> s
+    java.lang.Runnable dispatchRunner -> t
+    com.google.android.apps.analytics.GoogleAnalyticsTracker getInstance() -> a
+    void start$45f99364(java.lang.String,android.content.Context) -> a
+    void trackEvent(java.lang.String,java.lang.String,java.lang.String,int) -> a
+    void trackPageView(java.lang.String) -> a
+    void createEvent(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int) -> a
+    void maybeScheduleNextDispatch() -> f
+    void cancelPendingDispatches() -> g
+    boolean dispatch() -> b
+    void dispatchFinished() -> c
+    void stop() -> d
+    boolean getDebug() -> e
+    android.os.Handler access$000(com.google.android.apps.analytics.GoogleAnalyticsTracker) -> a
+    com.google.android.apps.analytics.HitStore access$100(com.google.android.apps.analytics.GoogleAnalyticsTracker) -> b
+com.google.android.apps.analytics.GoogleAnalyticsTracker$1 -> com.google.android.apps.analytics.i:
+    com.google.android.apps.analytics.GoogleAnalyticsTracker this$0 -> a
+    void run() -> run
+com.google.android.apps.analytics.GoogleAnalyticsTracker$DispatcherCallbacks -> com.google.android.apps.analytics.n:
+    com.google.android.apps.analytics.GoogleAnalyticsTracker this$0 -> a
+    void dispatchFinished() -> a
+    void hitDispatched(long) -> a
+com.google.android.apps.analytics.GoogleAnalyticsTracker$DispatcherCallbacks$1 -> com.google.android.apps.analytics.k:
+    com.google.android.apps.analytics.GoogleAnalyticsTracker$DispatcherCallbacks this$1 -> a
+    void run() -> run
+com.google.android.apps.analytics.Hit -> com.google.android.apps.analytics.l:
+    java.lang.String hitString -> a
+    long hitId -> b
+com.google.android.apps.analytics.HitBuilder -> com.google.android.apps.analytics.e:
+    void appendStringValue(java.lang.StringBuilder,java.lang.String,java.lang.String) -> a
+    void appendCurrencyValue(java.lang.StringBuilder,java.lang.String,double) -> a
+    java.lang.String constructHitRequestPath(com.google.android.apps.analytics.Event,com.google.android.apps.analytics.Referrer) -> a
+    java.lang.String getCustomVariableParams(com.google.android.apps.analytics.Event) -> a
+    void createX10Project(com.google.android.apps.analytics.CustomVariable[],java.lang.StringBuilder,int) -> a
+    java.lang.String x10Escape(java.lang.String) -> a
+    java.lang.String getEscapedCookieString(com.google.android.apps.analytics.Event,com.google.android.apps.analytics.Referrer) -> b
+com.google.android.apps.analytics.HitStore -> com.google.android.apps.analytics.o:
+    void putEvent(com.google.android.apps.analytics.Event) -> a
+    com.google.android.apps.analytics.Hit[] peekHits() -> a
+    void deleteHit(long) -> a
+    int getNumStoredHits() -> b
+    boolean setReferrer(java.lang.String) -> a
+    void startNewVisit() -> c
+    void setAnonymizeIp(boolean) -> a
+    void setSampleRate(int) -> a
+com.google.android.apps.analytics.Item -> com.google.android.apps.analytics.r:
+    java.lang.String orderId -> a
+    java.lang.String itemSKU -> b
+    java.lang.String itemName -> c
+    java.lang.String itemCategory -> d
+    double itemPrice -> e
+    long itemCount -> f
+    java.lang.String getOrderId() -> a
+    java.lang.String getItemSKU() -> b
+    java.lang.String getItemName() -> c
+    java.lang.String getItemCategory() -> d
+    double getItemPrice() -> e
+    long getItemCount() -> f
+com.google.android.apps.analytics.Item$Builder -> com.google.android.apps.analytics.a:
+    java.lang.String orderId -> a
+    java.lang.String itemSKU -> b
+    double itemPrice -> c
+    long itemCount -> d
+    java.lang.String itemName -> e
+    java.lang.String itemCategory -> f
+    com.google.android.apps.analytics.Item$Builder setItemName(java.lang.String) -> a
+    com.google.android.apps.analytics.Item$Builder setItemCategory(java.lang.String) -> b
+    java.lang.String access$000(com.google.android.apps.analytics.Item$Builder) -> a
+    java.lang.String access$100(com.google.android.apps.analytics.Item$Builder) -> b
+    double access$200(com.google.android.apps.analytics.Item$Builder) -> c
+    long access$300(com.google.android.apps.analytics.Item$Builder) -> d
+    java.lang.String access$400(com.google.android.apps.analytics.Item$Builder) -> e
+    java.lang.String access$500(com.google.android.apps.analytics.Item$Builder) -> f
+com.google.android.apps.analytics.NetworkDispatcher -> com.google.android.apps.analytics.m:
+    java.lang.String userAgent -> a
+    org.apache.http.HttpHost googleAnalyticsHost -> b
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread dispatcherThread -> c
+    boolean dryRun -> d
+    void init(com.google.android.apps.analytics.Dispatcher$Callbacks) -> a
+    void dispatchHits(com.google.android.apps.analytics.Hit[]) -> a
+    void setDryRun(boolean) -> a
+    boolean isDryRun() -> b
+    void stop() -> a
+    org.apache.http.HttpHost access$200(com.google.android.apps.analytics.NetworkDispatcher) -> a
+com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread -> com.google.android.apps.analytics.w:
+    android.os.Handler handlerExecuteOnDispatcherThread -> a
+    com.google.android.apps.analytics.PipelinedRequester pipelinedRequester -> b
+    java.lang.String userAgent -> c
+    int lastStatusCode -> d
+    int maxEventsPerRequest -> e
+    long retryInterval -> f
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$AsyncDispatchTask currentTask -> g
+    com.google.android.apps.analytics.Dispatcher$Callbacks callbacks -> h
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$RequesterCallbacks requesterCallBacks -> i
+    com.google.android.apps.analytics.NetworkDispatcher parent -> j
+    void onLooperPrepared() -> onLooperPrepared
+    void dispatchHits(com.google.android.apps.analytics.Hit[]) -> a
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$AsyncDispatchTask access$402(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread,com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$AsyncDispatchTask) -> a
+    int access$500(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> a
+    long access$600(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> b
+    long access$630$78cf8d4e(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> c
+    long access$602$78cf8d4e(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> d
+    com.google.android.apps.analytics.NetworkDispatcher access$700(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> e
+    com.google.android.apps.analytics.PipelinedRequester access$800(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> f
+    com.google.android.apps.analytics.Dispatcher$Callbacks access$900(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> g
+    int access$1000(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> h
+    java.lang.String access$1100(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> i
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$RequesterCallbacks access$1200(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> j
+    int access$1002$78cf9110(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> k
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$AsyncDispatchTask access$400(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread) -> l
+    int access$502(com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread,int) -> a
+com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$AsyncDispatchTask -> com.google.android.apps.analytics.u:
+    java.util.LinkedList hits -> a
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread this$0 -> b
+    void run() -> run
+    com.google.android.apps.analytics.Hit removeNextHit() -> a
+com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread$RequesterCallbacks -> com.google.android.apps.analytics.x:
+    com.google.android.apps.analytics.NetworkDispatcher$DispatcherThread this$0 -> a
+    void pipelineModeChanged$1385ff() -> a
+    void requestSent() -> b
+    void serverError(int) -> a
+com.google.android.apps.analytics.PersistentHitStore -> com.google.android.apps.analytics.v:
+    com.google.android.apps.analytics.PersistentHitStore$DataBaseHelper databaseHelper -> a
+    int storeId -> b
+    long timestampFirst -> c
+    long timestampPrevious -> d
+    long timestampCurrent -> e
+    int visits -> f
+    int numStoredHits -> g
+    boolean sessionStarted -> h
+    boolean useStoredVisitorVars -> i
+    boolean anonymizeIp -> j
+    int sampleRate -> k
+    java.lang.String CREATE_EVENTS_TABLE -> l
+    java.lang.String CREATE_SESSION_TABLE -> m
+    java.lang.String CREATE_CUSTOM_VARIABLES_TABLE -> n
+    java.lang.String CREATE_CUSTOM_VAR_CACHE_TABLE -> o
+    java.lang.String CREATE_TRANSACTION_EVENTS_TABLE -> p
+    java.lang.String CREATE_ITEM_EVENTS_TABLE -> q
+    java.lang.String CREATE_HITS_TABLE -> r
+    void deleteHit(long) -> a
+    com.google.android.apps.analytics.Hit[] peekHits() -> a
+    com.google.android.apps.analytics.Hit[] peekHits$7612f821() -> k
+    com.google.android.apps.analytics.Event[] peekEvents$3798dea(android.database.sqlite.SQLiteDatabase,int) -> a
+    com.google.android.apps.analytics.Transaction getTransaction(long,android.database.sqlite.SQLiteDatabase) -> a
+    com.google.android.apps.analytics.Item getItem(long,android.database.sqlite.SQLiteDatabase) -> b
+    com.google.android.apps.analytics.CustomVariableBuffer getCustomVariables(long,android.database.sqlite.SQLiteDatabase) -> c
+    void putEvent(com.google.android.apps.analytics.Event) -> a
+    void putEvent(com.google.android.apps.analytics.Event,android.database.sqlite.SQLiteDatabase,boolean) -> a
+    com.google.android.apps.analytics.CustomVariableBuffer getVisitorVarBuffer() -> l
+    int getNumStoredHits() -> b
+    void loadExistingSession(android.database.sqlite.SQLiteDatabase) -> a
+    void startNewVisit() -> c
+    boolean setReferrer(java.lang.String) -> a
+    com.google.android.apps.analytics.Referrer getReferrer(android.database.sqlite.SQLiteDatabase,boolean) -> a
+    void setAnonymizeIp(boolean) -> a
+    void setSampleRate(int) -> a
+    java.lang.String access$000() -> d
+    java.lang.String access$100() -> e
+    java.lang.String access$200() -> f
+    java.lang.String access$300() -> g
+    java.lang.String access$400() -> h
+    java.lang.String access$500() -> i
+    java.lang.String access$600() -> j
+com.google.android.apps.analytics.PersistentHitStore$DataBaseHelper -> com.google.android.apps.analytics.j:
+    int databaseVersion -> a
+    com.google.android.apps.analytics.PersistentHitStore store -> b
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void createCustomVariableTables(android.database.sqlite.SQLiteDatabase) -> a
+    void createECommerceTables(android.database.sqlite.SQLiteDatabase) -> b
+    void createHitTable(android.database.sqlite.SQLiteDatabase) -> c
+    void migrateEventsToHits(android.database.sqlite.SQLiteDatabase,int) -> a
+    void createReferrerTable(android.database.sqlite.SQLiteDatabase) -> d
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.google.android.apps.analytics.PipelinedRequester -> com.google.android.apps.analytics.h:
+    org.apache.http.impl.DefaultHttpClientConnection connection -> b
+    com.google.android.apps.analytics.PipelinedRequester$Callbacks callbacks -> a
+    int lastStatusCode -> c
+    boolean canPipeline -> d
+    org.apache.http.HttpHost host -> e
+    org.apache.http.conn.scheme.SocketFactory socketFactory -> f
+    void addRequest(org.apache.http.HttpRequest) -> a
+    void sendRequests() -> a
+    void finishedCurrentRequests() -> b
+    void closeConnection() -> c
+com.google.android.apps.analytics.PipelinedRequester$Callbacks -> com.google.android.apps.analytics.y:
+    void pipelineModeChanged$1385ff() -> a
+    void serverError(int) -> a
+    void requestSent() -> b
+com.google.android.apps.analytics.Referrer -> com.google.android.apps.analytics.d:
+    java.lang.String referrer -> a
+    long timeStamp -> b
+    java.lang.String getReferrerString() -> a
+    long getTimeStamp() -> b
+com.google.android.apps.analytics.Transaction -> com.google.android.apps.analytics.p:
+    java.lang.String orderId -> a
+    java.lang.String storeName -> b
+    double totalCost -> c
+    double totalTax -> d
+    double shippingCost -> e
+    java.lang.String getOrderId() -> a
+    java.lang.String getStoreName() -> b
+    double getTotalCost() -> c
+    double getTotalTax() -> d
+    double getShippingCost() -> e
+com.google.android.apps.analytics.Transaction$Builder -> com.google.android.apps.analytics.z:
+    java.lang.String orderId -> a
+    java.lang.String storeName -> b
+    double totalCost -> c
+    double totalTax -> d
+    double shippingCost -> e
+    com.google.android.apps.analytics.Transaction$Builder setStoreName(java.lang.String) -> a
+    com.google.android.apps.analytics.Transaction$Builder setTotalTax(double) -> a
+    com.google.android.apps.analytics.Transaction$Builder setShippingCost(double) -> b
+    java.lang.String access$000(com.google.android.apps.analytics.Transaction$Builder) -> a
+    double access$100(com.google.android.apps.analytics.Transaction$Builder) -> b
+    java.lang.String access$200(com.google.android.apps.analytics.Transaction$Builder) -> c
+    double access$300(com.google.android.apps.analytics.Transaction$Builder) -> d
+    double access$400(com.google.android.apps.analytics.Transaction$Builder) -> e
+com.google.android.apps.analytics.Utils -> com.google.android.apps.analytics.t:
+    java.lang.String addQueueTimeParameter(java.lang.String,long) -> a
+d -> h:
+    java.lang.Object a -> a
+    java.lang.ref.WeakReference b -> b
+    com.google.ads.Ad c -> c
+    com.google.ads.AdListener d -> d
+    c e -> e
+    com.google.ads.AdRequest f -> f
+    com.google.ads.AdSize g -> g
+    f h -> h
+    java.lang.String i -> i
+    g j -> j
+    h k -> k
+    android.os.Handler l -> l
+    long m -> m
+    boolean n -> n
+    boolean o -> o
+    android.content.SharedPreferences p -> p
+    long q -> q
+    x r -> r
+    boolean s -> s
+    java.util.LinkedList t -> t
+    java.util.LinkedList u -> u
+    int v -> v
+    void a(java.lang.String) -> a
+    void a(java.util.LinkedList) -> a
+    void a() -> a
+    void c() -> b
+    void d() -> c
+    android.app.Activity e() -> d
+    com.google.ads.Ad f() -> e
+    c g() -> f
+    java.lang.String h() -> g
+    g i() -> h
+    h j() -> i
+    com.google.ads.AdSize k() -> j
+    f l() -> k
+    void a(int) -> a
+    int m() -> l
+    long n() -> m
+    boolean A() -> v
+    boolean p() -> n
+    void a(com.google.ads.AdRequest) -> a
+    void a(com.google.ads.AdRequest$ErrorCode) -> a
+    void q() -> o
+    void r() -> p
+    void s() -> q
+    void t() -> r
+    void u() -> s
+    void v() -> w
+    boolean w() -> t
+    void B() -> x
+    void a(java.lang.Runnable) -> a
+    void x() -> u
+    void a(long) -> a
+    void a(float) -> a
+e -> i:
+    java.lang.String a -> a
+    java.util.HashMap b -> b
+    android.os.Bundle a() -> a
+    java.lang.String b() -> b
+    java.util.HashMap c() -> c
+f -> f:
+    java.util.LinkedList b -> a
+    long c -> b
+    long d -> c
+    java.util.LinkedList e -> d
+    long f -> e
+    java.lang.String g -> f
+    boolean h -> g
+    boolean i -> h
+    java.lang.String a -> i
+    void a() -> a
+    void b() -> b
+    void c() -> c
+    void d() -> d
+    long e() -> e
+    java.lang.String f() -> f
+    java.lang.String g() -> g
+    long h() -> h
+    long i() -> i
+    java.lang.String j() -> j
+    void a(java.lang.String) -> a
+    boolean k() -> k
+    void l() -> l
+    boolean m() -> m
+    void n() -> n
+    void o() -> o
+    java.lang.String p() -> p
+    void b(java.lang.String) -> b
+g -> g:
+    com.google.ads.AdActivity a -> a
+    com.google.ads.AdSize b -> b
+    void a() -> a
+    com.google.ads.AdActivity b() -> b
+    void a(com.google.ads.AdActivity) -> a
+    void loadDataWithBaseURL(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) -> loadDataWithBaseURL
+    void loadUrl(java.lang.String) -> loadUrl
+    void onMeasure(int,int) -> onMeasure
+greendroid.app.GDActivity -> greendroid.app.GDActivity:
+    java.lang.String LOG_TAG -> a
+    boolean mDefaultConstructorUsed -> b
+    greendroid.widget.ActionBar$Type mActionBarType -> c
+    greendroid.widget.ActionBarHost mActionBarHost -> d
+    greendroid.widget.ActionBar$OnActionBarListener mActionBarListener -> e
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type -> f
+    void onRestoreInstanceState(android.os.Bundle) -> onRestoreInstanceState
+    void onCreate(android.os.Bundle) -> onCreate
+    void onPostCreate(android.os.Bundle) -> onPostCreate
+    greendroid.widget.ActionBar$Type getActionBarType() -> i
+    int createLayout() -> a
+    void ensureLayout() -> j
+    boolean verifyLayout() -> b_
+    greendroid.app.GDApplication getGDApplication() -> k
+    void onContentChanged() -> onContentChanged
+    void onPreContentChanged() -> c_
+    void onPostContentChanged() -> c
+    void setTitle(java.lang.CharSequence) -> setTitle
+    void setTitle(int) -> setTitle
+    greendroid.widget.ActionBar getActionBar() -> l
+    greendroid.widget.ActionBarItem addActionBarItem(greendroid.widget.ActionBarItem$Type,int) -> a
+    void setActionBarContentView(int) -> a
+    boolean onHandleActionBarItemClick(greendroid.widget.ActionBarItem,int) -> a
+    greendroid.widget.ActionBar$Type access$0(greendroid.app.GDActivity) -> a
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type() -> e
+greendroid.app.GDActivity$1 -> greendroid.app.d:
+    greendroid.app.GDActivity this$0 -> a
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type -> b
+    void onActionBarItemClicked(int) -> a
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type() -> a
+greendroid.app.GDApplication -> greendroid.app.GDApplication:
+    java.util.concurrent.ThreadFactory sThreadFactory -> a
+    java.util.concurrent.ExecutorService mExecutorService -> b
+    greendroid.image.ImageCache mImageCache -> c
+    java.util.ArrayList mLowMemoryListeners -> d
+    java.util.concurrent.ExecutorService getExecutor() -> a
+    greendroid.image.ImageCache getImageCache() -> b
+    java.lang.Class getHomeActivityClass() -> c
+    void registerOnLowMemoryListener(greendroid.app.GDApplication$OnLowMemoryListener) -> a
+    void onLowMemory() -> onLowMemory
+greendroid.app.GDApplication$1 -> greendroid.app.f:
+    java.util.concurrent.atomic.AtomicInteger mCount -> a
+    java.lang.Thread newThread(java.lang.Runnable) -> newThread
+greendroid.app.GDApplication$OnLowMemoryListener -> greendroid.app.a:
+    void onLowMemoryReceived() -> a
+greendroid.app.GDExpandableListActivity -> greendroid.app.GDExpandableListActivity:
+    android.widget.ExpandableListAdapter mAdapter -> a
+    android.widget.ExpandableListView mList -> b
+    android.view.View mEmptyView -> c
+    boolean mFinishedStart -> d
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type -> e
+    void onCreateContextMenu(android.view.ContextMenu,android.view.View,android.view.ContextMenu$ContextMenuInfo) -> onCreateContextMenu
+    boolean onChildClick(android.widget.ExpandableListView,android.view.View,int,int,long) -> onChildClick
+    void onGroupCollapse(int) -> onGroupCollapse
+    void onGroupExpand(int) -> onGroupExpand
+    int createLayout() -> a
+    void onPreContentChanged() -> c_
+    void onPostContentChanged() -> c
+    void setActionBarContentView(int) -> a
+    boolean verifyLayout() -> b_
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type() -> e
+greendroid.app.GDListActivity -> greendroid.app.GDListActivity:
+    java.lang.String LOG_TAG -> a
+    android.widget.ListAdapter mAdapter -> b
+    android.widget.ListView mListView -> c
+    android.view.View mEmptyView -> d
+    android.os.Handler mHandler -> e
+    boolean mFinishedStart -> f
+    java.lang.Runnable mRequestFocus -> g
+    android.widget.AdapterView$OnItemClickListener mOnItemClickListener -> h
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type -> i
+    android.widget.ListView getListView() -> h
+    void setListAdapter(android.widget.ListAdapter) -> a
+    int createLayout() -> a
+    boolean verifyLayout() -> b_
+    void onPreContentChanged() -> c_
+    void onPostContentChanged() -> c
+    void setActionBarContentView(int) -> a
+    android.widget.ListView access$0(greendroid.app.GDListActivity) -> a
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type() -> e
+greendroid.app.GDListActivity$1 -> greendroid.app.c:
+    greendroid.app.GDListActivity this$0 -> a
+    void run() -> run
+greendroid.app.GDListActivity$2 -> greendroid.app.b:
+    greendroid.app.GDListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+greendroid.app.GDTabActivity -> greendroid.app.GDTabActivity:
+    java.lang.String LOG_TAG -> a
+    greendroid.widget.ActionBarHost mActionBarHost -> b
+    greendroid.widget.ActionBar$OnActionBarListener mActionBarListener -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    greendroid.app.GDApplication getGDApplication() -> a
+    void onContentChanged() -> onContentChanged
+    void setTitle(java.lang.CharSequence) -> setTitle
+    void setTitle(int) -> setTitle
+    greendroid.widget.ActionBar getActionBar() -> b
+greendroid.app.GDTabActivity$1 -> greendroid.app.e:
+    greendroid.app.GDTabActivity this$0 -> a
+    void onActionBarItemClicked(int) -> a
+greendroid.graphics.drawable.ActionBarDrawable -> greendroid.b.a.b:
+    android.util.TypedValue sTypedValue -> a
+    android.graphics.ColorFilter mNormalCf -> b
+    android.graphics.ColorFilter mAltCf -> c
+    int getColorFromTheme(android.content.Context,int,int) -> a
+    boolean isStateful() -> isStateful
+    boolean onStateChange(int[]) -> onStateChange
+greendroid.graphics.drawable.DrawableStateSet -> greendroid.b.a.a:
+    int[] EMPTY_STATE_SET -> c
+    int[] ENABLED_PRESSED_STATE_SET -> a
+    int[] ENABLED_FOCUSED_STATE_SET -> b
+greendroid.image.ImageCache -> greendroid.a.g:
+    java.util.HashMap mSoftCache -> a
+    android.graphics.Bitmap get(java.lang.String) -> a
+    void put(java.lang.String,android.graphics.Bitmap) -> a
+    void onLowMemoryReceived() -> a
+greendroid.image.ImageLoader -> greendroid.a.h:
+    java.lang.String LOG_TAG -> a
+    greendroid.image.ImageCache sImageCache -> b
+    java.util.concurrent.ExecutorService sExecutor -> c
+    android.graphics.BitmapFactory$Options sDefaultOptions -> d
+    java.util.concurrent.Future loadImage(java.lang.String,greendroid.image.ImageLoader$ImageLoaderCallback,greendroid.image.ImageProcessor,android.graphics.BitmapFactory$Options) -> a
+    android.graphics.BitmapFactory$Options access$0() -> a
+    greendroid.image.ImageCache access$1() -> b
+greendroid.image.ImageLoader$ImageFetcher -> greendroid.a.e:
+    java.lang.String mUrl -> a
+    greendroid.image.ImageLoader$ImageHandler mHandler -> b
+    greendroid.image.ImageProcessor mBitmapProcessor -> c
+    android.graphics.BitmapFactory$Options mOptions -> d
+    greendroid.image.ImageLoader this$0 -> e
+    void run() -> run
+greendroid.image.ImageLoader$ImageHandler -> greendroid.a.d:
+    java.lang.String mUrl -> a
+    greendroid.image.ImageLoader$ImageLoaderCallback mCallback -> b
+    greendroid.image.ImageLoader this$0 -> c
+    void handleMessage(android.os.Message) -> handleMessage
+greendroid.image.ImageLoader$ImageLoaderCallback -> greendroid.a.i:
+    void onImageLoadingEnded$79088132(android.graphics.Bitmap) -> a
+    void onImageLoadingFailed$3f37576b$786b7c60() -> a
+greendroid.image.ImageProcessor -> greendroid.a.a:
+    android.graphics.Bitmap processImage$34dbf037() -> a
+greendroid.image.ImageRequest -> greendroid.a.b:
+    greendroid.image.ImageLoader sImageLoader -> a
+    java.util.concurrent.Future mFuture -> b
+    java.lang.String mUrl -> c
+    greendroid.image.ImageRequest$ImageRequestCallback mCallback -> d
+    greendroid.image.ImageProcessor mBitmapProcessor -> e
+    android.graphics.BitmapFactory$Options mOptions -> f
+    void load(android.content.Context) -> a
+    void cancel() -> a
+    boolean isCancelled() -> b
+    greendroid.image.ImageRequest$ImageRequestCallback access$0(greendroid.image.ImageRequest) -> a
+    void access$1$1398d878(greendroid.image.ImageRequest) -> b
+greendroid.image.ImageRequest$ImageRequestCallback -> greendroid.a.c:
+    void onImageRequestFailed$4abedb07$786b7c60() -> a
+    void onImageRequestEnded$1334d7c0(android.graphics.Bitmap) -> a
+    void onImageRequestCancelled$269291ae() -> b
+greendroid.image.ImageRequest$InnerCallback -> greendroid.a.f:
+    greendroid.image.ImageRequest this$0 -> a
+    void onImageLoadingEnded$79088132(android.graphics.Bitmap) -> a
+    void onImageLoadingFailed$3f37576b$786b7c60() -> a
+greendroid.widget.ActionBar -> greendroid.widget.ActionBar:
+    android.widget.TextView mTitleView -> a
+    android.widget.ImageButton mHomeButton -> b
+    boolean mMerging -> c
+    java.lang.CharSequence mTitle -> d
+    greendroid.widget.ActionBar$Type mType -> e
+    greendroid.widget.ActionBar$OnActionBarListener mOnActionBarListener -> f
+    java.util.LinkedList mItems -> g
+    android.graphics.drawable.Drawable mDividerDrawable -> h
+    android.graphics.drawable.Drawable mHomeDrawable -> i
+    int mDividerWidth -> j
+    android.view.View$OnClickListener mClickHandler -> k
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type -> l
+    void onFinishInflate() -> onFinishInflate
+    void setOnActionBarListener(greendroid.widget.ActionBar$OnActionBarListener) -> a
+    void setTitle(java.lang.CharSequence) -> a
+    greendroid.widget.ActionBarItem addItem(greendroid.widget.ActionBarItem$Type,int) -> a
+    greendroid.widget.ActionBarItem getItem(int) -> a
+    greendroid.widget.ActionBarItem newActionBarItem(java.lang.Class) -> a
+    greendroid.widget.ActionBar$OnActionBarListener access$0(greendroid.widget.ActionBar) -> a
+    android.widget.ImageButton access$1(greendroid.widget.ActionBar) -> b
+    java.util.LinkedList access$2(greendroid.widget.ActionBar) -> c
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBar$Type() -> a
+greendroid.widget.ActionBar$1 -> greendroid.widget.s:
+    greendroid.widget.ActionBar this$0 -> a
+    void onClick(android.view.View) -> onClick
+greendroid.widget.ActionBar$OnActionBarListener -> greendroid.widget.l:
+    void onActionBarItemClicked(int) -> a
+greendroid.widget.ActionBar$Type -> greendroid.widget.h:
+    greendroid.widget.ActionBar$Type Normal -> a
+    greendroid.widget.ActionBar$Type Dashboard -> b
+    greendroid.widget.ActionBar$Type Empty -> c
+    greendroid.widget.ActionBar$Type[] ENUM$VALUES -> d
+    greendroid.widget.ActionBar$Type[] values() -> values
+    greendroid.widget.ActionBar$Type valueOf(java.lang.String) -> valueOf
+greendroid.widget.ActionBarHost -> greendroid.widget.ActionBarHost:
+    greendroid.widget.ActionBar mActionBar -> a
+    android.widget.FrameLayout mContentView -> b
+    void onFinishInflate() -> onFinishInflate
+    greendroid.widget.ActionBar getActionBar() -> a
+    android.widget.FrameLayout getContentView() -> b
+greendroid.widget.ActionBarItem -> greendroid.widget.m:
+    android.graphics.drawable.Drawable mDrawable -> a
+    java.lang.CharSequence mContentDescription -> b
+    android.view.View mItemView -> c
+    android.content.Context mContext -> d
+    greendroid.widget.ActionBar mActionBar -> e
+    int mItemId -> f
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBarItem$Type -> g
+    void setActionBar(greendroid.widget.ActionBar) -> a
+    greendroid.widget.ActionBarItem setDrawable(android.graphics.drawable.Drawable) -> a
+    greendroid.widget.ActionBarItem setContentDescription(int) -> b
+    android.view.View getItemView() -> d
+    android.view.View createItemView() -> a
+    void prepareItemView() -> b
+    void onDrawableChanged() -> e
+    void onContentDescriptionChanged() -> f
+    void onItemClicked() -> c
+    void setItemId(int) -> a
+    int getItemId() -> g
+    greendroid.widget.ActionBarItem createWithType(greendroid.widget.ActionBar,greendroid.widget.ActionBarItem$Type) -> a
+    int[] $SWITCH_TABLE$greendroid$widget$ActionBarItem$Type() -> h
+greendroid.widget.ActionBarItem$Type -> greendroid.widget.a:
+    greendroid.widget.ActionBarItem$Type GoHome -> a
+    greendroid.widget.ActionBarItem$Type Search -> b
+    greendroid.widget.ActionBarItem$Type Talk -> c
+    greendroid.widget.ActionBarItem$Type Compose -> d
+    greendroid.widget.ActionBarItem$Type Export -> e
+    greendroid.widget.ActionBarItem$Type Share -> f
+    greendroid.widget.ActionBarItem$Type Refresh -> g
+    greendroid.widget.ActionBarItem$Type TakePhoto -> h
+    greendroid.widget.ActionBarItem$Type Locate -> i
+    greendroid.widget.ActionBarItem$Type Edit -> j
+    greendroid.widget.ActionBarItem$Type Add -> k
+    greendroid.widget.ActionBarItem$Type Star -> l
+    greendroid.widget.ActionBarItem$Type SortBySize -> m
+    greendroid.widget.ActionBarItem$Type LocateMyself -> n
+    greendroid.widget.ActionBarItem$Type Compass -> o
+    greendroid.widget.ActionBarItem$Type Help -> p
+    greendroid.widget.ActionBarItem$Type Info -> q
+    greendroid.widget.ActionBarItem$Type Settings -> r
+    greendroid.widget.ActionBarItem$Type List -> s
+    greendroid.widget.ActionBarItem$Type Trashcan -> t
+    greendroid.widget.ActionBarItem$Type Eye -> u
+    greendroid.widget.ActionBarItem$Type AllFriends -> v
+    greendroid.widget.ActionBarItem$Type Group -> w
+    greendroid.widget.ActionBarItem$Type Gallery -> x
+    greendroid.widget.ActionBarItem$Type Slideshow -> y
+    greendroid.widget.ActionBarItem$Type Mail -> z
+    greendroid.widget.ActionBarItem$Type[] ENUM$VALUES -> A
+    greendroid.widget.ActionBarItem$Type[] values() -> values
+    greendroid.widget.ActionBarItem$Type valueOf(java.lang.String) -> valueOf
+greendroid.widget.AsyncImageView -> greendroid.widget.AsyncImageView:
+    java.lang.String LOG_TAG -> a
+    int mImageSource -> b
+    android.graphics.Bitmap mDefaultBitmap -> c
+    android.graphics.drawable.Drawable mDefaultDrawable -> d
+    int mDefaultResId -> e
+    java.lang.String mUrl -> f
+    greendroid.image.ImageRequest mRequest -> g
+    boolean mPaused -> h
+    android.graphics.Bitmap mBitmap -> i
+    greendroid.image.ImageProcessor mImageProcessor -> j
+    android.graphics.BitmapFactory$Options mOptions -> k
+    void setUrl(java.lang.String) -> a
+    void setDefaultImage() -> c
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    void onImageRequestFailed$4abedb07$786b7c60() -> a
+    void onImageRequestEnded$1334d7c0(android.graphics.Bitmap) -> a
+    void onImageRequestCancelled$269291ae() -> b
+greendroid.widget.AsyncImageView$SavedState -> greendroid.widget.AsyncImageView$SavedState:
+    java.lang.String url -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+greendroid.widget.AsyncImageView$SavedState$1 -> greendroid.widget.c:
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+greendroid.widget.LoaderActionBarItem -> greendroid.widget.d:
+    boolean mLoading -> f
+    android.view.View mButton -> g
+    android.view.View mProgressBar -> h
+    android.view.View createItemView() -> a
+    void prepareItemView() -> b
+    void onItemClicked() -> c
+    void setLoading(boolean) -> a
+greendroid.widget.NormalActionBarItem -> greendroid.widget.p:
+    android.view.View createItemView() -> a
+    void prepareItemView() -> b
+    void onContentDescriptionChanged() -> f
+    void onDrawableChanged() -> e
+greendroid.widget.PageIndicator -> greendroid.widget.PageIndicator:
+    android.graphics.Rect sInRect -> a
+    android.graphics.Rect sOutRect -> b
+    int mGravity -> c
+    int mDotSpacing -> d
+    android.graphics.drawable.Drawable mDotDrawable -> e
+    int mDotCount -> f
+    int mDotType -> g
+    int mActiveDot -> h
+    int[] mExtraState -> i
+    boolean mInitializing -> j
+    void requestLayout() -> requestLayout
+    void invalidate() -> invalidate
+    boolean verifyDrawable(android.graphics.drawable.Drawable) -> verifyDrawable
+    void drawableStateChanged() -> drawableStateChanged
+    void onMeasure(int,int) -> onMeasure
+    void onDraw(android.graphics.Canvas) -> onDraw
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+greendroid.widget.PageIndicator$SavedState -> greendroid.widget.PageIndicator$SavedState:
+    int activeDot -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+greendroid.widget.PageIndicator$SavedState$1 -> greendroid.widget.o:
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+greendroid.widget.PagedAdapter -> greendroid.widget.q:
+    android.database.DataSetObservable mDataSetObservable -> a
+    int getCount() -> getCount
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    void registerDataSetObserver(android.database.DataSetObserver) -> registerDataSetObserver
+    void unregisterDataSetObserver(android.database.DataSetObserver) -> unregisterDataSetObserver
+greendroid.widget.PagedView -> greendroid.widget.PagedView:
+    java.lang.String LOG_TAG -> a
+    android.os.Handler mHandler -> b
+    int mPageCount -> c
+    int mCurrentPage -> d
+    int mTargetPage -> e
+    int mPagingTouchSlop -> f
+    int mMinimumVelocity -> g
+    int mMaximumVelocity -> h
+    int mPageSlop -> i
+    boolean mIsBeingDragged -> j
+    int mOffsetX -> k
+    int mStartMotionX -> l
+    int mStartOffsetX -> m
+    android.widget.Scroller mScroller -> n
+    android.view.VelocityTracker mVelocityTracker -> o
+    greendroid.widget.PagedAdapter mAdapter -> p
+    android.util.SparseArray mActiveViews -> q
+    java.util.Queue mRecycler -> r
+    android.database.DataSetObserver mDataSetObserver -> s
+    java.lang.Runnable mScrollerRunnable -> t
+    void onMeasure(int,int) -> onMeasure
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    void setAdapter(greendroid.widget.PagedAdapter) -> a
+    void setOffsetX(int) -> a
+    void recycleViews(int,int) -> a
+    android.view.View obtainView(int) -> b
+    void setupView(android.view.View,int) -> a
+    void performStartTracking(int) -> c
+    void performPageChange(int) -> d
+    android.os.Parcelable onSaveInstanceState() -> onSaveInstanceState
+    void onRestoreInstanceState(android.os.Parcelable) -> onRestoreInstanceState
+    int access$0(greendroid.widget.PagedView) -> a
+    greendroid.widget.PagedAdapter access$1(greendroid.widget.PagedView) -> b
+    void access$2(greendroid.widget.PagedView,int) -> a
+    int access$3(greendroid.widget.PagedView,int) -> b
+    void access$4(greendroid.widget.PagedView,int) -> c
+    android.widget.Scroller access$5(greendroid.widget.PagedView) -> c
+    android.os.Handler access$6(greendroid.widget.PagedView) -> d
+    int access$7(greendroid.widget.PagedView) -> e
+    void access$8(greendroid.widget.PagedView,int) -> d
+greendroid.widget.PagedView$1 -> greendroid.widget.i:
+    greendroid.widget.PagedView this$0 -> a
+    void onInvalidated() -> onInvalidated
+    void onChanged() -> onChanged
+greendroid.widget.PagedView$2 -> greendroid.widget.j:
+    greendroid.widget.PagedView this$0 -> a
+    void run() -> run
+greendroid.widget.PagedView$SavedState -> greendroid.widget.PagedView$SavedState:
+    int currentPage -> a
+    android.os.Parcelable$Creator CREATOR -> CREATOR
+    void writeToParcel(android.os.Parcel,int) -> writeToParcel
+greendroid.widget.PagedView$SavedState$1 -> greendroid.widget.k:
+    java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    java.lang.Object[] newArray(int) -> newArray
+greendroid.widget.QuickAction -> greendroid.widget.b:
+    android.graphics.drawable.Drawable mDrawable -> a
+    java.lang.CharSequence mTitle -> b
+    java.lang.ref.WeakReference mView -> c
+greendroid.widget.QuickActionBar -> greendroid.widget.r:
+    android.widget.HorizontalScrollView mScrollView -> a
+    android.view.animation.Animation mRackAnimation -> b
+    android.view.ViewGroup mRack -> c
+    android.view.ViewGroup mQuickActionItems -> d
+    java.util.List mQuickActions -> e
+    android.view.View$OnClickListener mClickHandlerInternal -> f
+    void show(android.view.View) -> a
+    void onMeasureAndLayout(android.graphics.Rect,android.view.View) -> a
+    void populateQuickActions(java.util.List) -> a
+    void onClearQuickActions() -> f
+    java.util.List access$0(greendroid.widget.QuickActionBar) -> a
+greendroid.widget.QuickActionBar$1 -> greendroid.widget.e:
+    greendroid.widget.QuickActionBar this$0 -> a
+    void onClick(android.view.View) -> onClick
+greendroid.widget.QuickActionBar$2 -> greendroid.widget.f:
+    greendroid.widget.QuickActionBar this$0 -> a
+    float getInterpolation(float) -> getInterpolation
+greendroid.widget.QuickActionWidget -> greendroid.widget.n:
+    int[] mLocation -> a
+    android.graphics.Rect mRect -> b
+    int mPrivateFlags -> c
+    android.content.Context mContext -> d
+    boolean mDismissOnClick -> e
+    int mArrowOffsetY -> f
+    int mPopupY -> g
+    boolean mIsOnTop -> h
+    int mScreenHeight -> i
+    int mScreenWidth -> j
+    boolean mIsDirty -> k
+    greendroid.widget.QuickActionWidget$OnQuickActionClickListener mOnQuickActionClickListener -> l
+    java.util.ArrayList mQuickActions -> m
+    void setContentView$13462e() -> a
+    int getArrowOffsetY() -> b
+    int getScreenWidth() -> c
+    int getScreenHeight() -> d
+    boolean getDismissOnClick() -> e
+    void setOnQuickActionClickListener(greendroid.widget.QuickActionWidget$OnQuickActionClickListener) -> a
+    void addQuickAction(greendroid.widget.QuickAction) -> a
+    void show(android.view.View) -> a
+    void onClearQuickActions() -> f
+    void populateQuickActions(java.util.List) -> a
+    void onMeasureAndLayout(android.graphics.Rect,android.view.View) -> a
+    void setWidgetSpecs(int,boolean) -> a
+    android.content.Context getContext() -> g
+    greendroid.widget.QuickActionWidget$OnQuickActionClickListener getOnQuickActionClickListener() -> h
+greendroid.widget.QuickActionWidget$OnQuickActionClickListener -> greendroid.widget.g:
+    void onQuickActionClicked$2f4cd209(int) -> a
+h -> s:
+    d a -> a
+    java.util.Map b -> b
+    boolean c -> c
+    boolean d -> d
+    boolean e -> e
+    boolean f -> f
+    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
+    void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
+    void a() -> a
+    void b() -> b
+i -> t:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+j -> q:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+k -> r:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+l -> o:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+m -> p:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+n -> m:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+o -> n:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+p -> ab:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+q -> aa:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+r -> z:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+s -> y:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+t -> x:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+u -> w:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+v -> v:
+    void a(d,java.util.HashMap,android.webkit.WebView) -> a
+w -> u:
+    android.content.Context a -> a
+    java.lang.String b -> b
+    void run() -> run
+x -> ac:
+    java.lang.ref.WeakReference a -> a
+    void run() -> run

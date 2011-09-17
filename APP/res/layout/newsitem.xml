@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:greendroid="http://schemas.android.com/apk/res/com.JoomlaDay"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:id="@+id/ScrollView01"
+	android:background="#FFFFFF"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="#FFFFFF"
+	    android:paddingBottom="5dip">
+	    <TextView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:paddingTop="2dip"
+		    android:id="@+id/NewsTitle"
+		    android:text="Titulo"
+		    android:textColor="#333333" 
+		    android:textStyle="bold" 
+		    android:textSize="16sp" 
+		    android:gravity="center_horizontal" 
+		    android:padding="5dip"/>
+	    <FrameLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:padding="10dip">
+			<greendroid.widget.AsyncImageView
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:id="@+id/imagenews"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				greendroid:defaultSrc="@drawable/icon"
+				/>
+		</FrameLayout>
+		<TextView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="13sp"
+		    android:text="Descrição"
+		    android:id="@+id/NewsDescription" 
+		    android:textColor="#333333"
+		    android:padding="5dip"/>
+		<TextView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="10sp"
+		    android:id="@+id/NewsAuthorDate" 
+		    android:text="Autor e Data"
+		   	android:textColor="#666666" 
+		   	android:padding="10dip"/>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:orientation="horizontal"
+			android:background="#FFFFFF">
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

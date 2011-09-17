@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="back_text">Voltar</string>
+    <string name="exit_text">Sair</string>
+    <string name="update_text">Atualizar</string>
+    <string name="share_text">Compartilhar</string>
+    <string name="browser_text">Visualizar</string>
+    <string name="version">Versão: 1.0</string>
+    <string name="app_name">Joomla! Day Brasil</string>
+    <string name="package_name">com.JoomlaDay</string>
+    <string name="url_twitteroficial">http://www.pwmpro.com/android_data/joomladay/twtOficial.php</string>
+    <string name="url_twitterhashtag">http://www.pwmpro.com/android_data/joomladay/twtHashtag.php</string>
+    <string name="url_noticias">http://www.pwmpro.com/android_data/joomladay/noticias.php</string>
+    <string name="url_programacao">http://www.pwmpro.com/android_data/joomladay/programacao.php</string>
+    <string name="loading">Carregando dados</string>
+    <string name="wait">Aguarde</string>
+    <string-array name="qtdnoticias">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="qtdnoticiasstr">
+        <item>5 Últimas</item>
+        <item>10 Últimas</item>
+        <item>15 Últimas</item>
+        <item>30 Últimas</item>
+        <item>45 Últimas</item>
+        <item>50 Últimas</item>
+    </string-array>
+    <string name="title_preferences">Configurações</string>
+    <string name="cancel_text">Cancelar</string>
+    <string name="news">Número de notícias (sem WiFi)</string>
+    <string name="news_wifi">Número de notícias (com WiFi)</string>
+    <string name="news_desc">Número de notícias que devem ser mostradas quando a WiFi estiver desligada.</string>
+    <string name="news_wifi_desc">Número de notícias que devem ser mostradas quando a WiFi estiver ligada.</string>
+    <string name="url_market">https://market.android.com/details?id=com.JoomlaDay</string>
+    <string name="hashtag">#jdbr11</string>
+    <string name="analytics">UA-17116358-12</string>
+    <string name="cache">Cache</string>
+    <string name="clean_cache">Limpar Cache</string>
+    <string name="cache_cleaned">O Cache foi limpo com sucesso!</string>
+    <string name="noticias_title">Notícias</string>
+    <string name="programacao_title">Programação</string>
+    <string name="twitteroficial_title">Oficial</string>
+    <string name="twitterhashtag_title">HashTag</string>
+    <string name="message_share">Confira as últimas informações sobre o maior evento de Joomla! do país</string>
+    <string name="about">Sobre</string>
+    <string name="developed_by">Desenvolvido por: Paulo Möbbs Santos</string>
+    <string name="moreinfo">Mais informações em: http://www.pwmpro.com</string>
+</resources>
